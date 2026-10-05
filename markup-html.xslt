@@ -7,7 +7,7 @@
 
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+  <xsl:output method="html" encoding="UTF-8" indent="no"/>
   <xsl:param name="css" select="''"/>
 
   <!-- Document root --> 
@@ -158,5 +158,10 @@
   </xsl:template>
   <xsl:template match="work-description">
     <div class="work-description"><xsl:apply-templates/></div>
+  </xsl:template>
+<!-- Modified 2026-10-05: compact thesis spacing. Disable output indentation
+       above so pre-line descriptions do not acquire serializer blank lines. -->
+  <xsl:template match="entry[@type='thesis']">
+    <div class="work-entry thesis-entry"><xsl:apply-templates/></div>
   </xsl:template>
 </xsl:stylesheet>

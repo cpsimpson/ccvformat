@@ -45,3 +45,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .work-entry > i { font-size: .9em; color: #53616c; }
 .work-description { white-space: pre-line; margin-top: 8px; }
 @media print { .work-entry { margin-bottom: 16px; } }
+
+/* Modified 2026-10-05: compact thesis metadata spacing. */
+.thesis-entry .work-description { margin-top: 2px; }
+.thesis-entry .work-description:first-of-type { margin-top: 6px; }

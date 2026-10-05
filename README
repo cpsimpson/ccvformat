@@ -283,3 +283,15 @@ Community and Volunteer Activities use the same resume-style layout:
 role, organization, dates, then Activity Description, with HTML line
 breaks preserved (modified 2026-10-05). Source order is retained and
 missing end dates are not inferred. Works with and without --clean.
+
+Theses and Dissertations (modified 2026-10-05)
+-------------------------------------------
+
+Both legacy Dissertations and current Thesis/Dissertation XML sections
+use a dedicated layout: title, degree, university/location, completion
+year/date, then all other populated fields. Includes supervisor, page
+count, descriptions, URL, DOI and contribution details when provided.
+Blank fields are omitted in this section regardless of --clean.
+Distinct populated translations are retained without duplicating the
+primary description. Organization reference-table attributes are read
+correctly. Applies to HTML and LaTeX output.

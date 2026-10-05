@@ -2569,122 +2569,47 @@
     </subsection>
   </xsl:template>
 
-  <xsl:template match="section[@label='Contributions']/section[@label='Publications']/section[@label='Dissertations']">
-    <subsection>
-      <xsl:attribute name="title">
-        <xsl:text>Theses:</xsl:text>
-      </xsl:attribute>
-
+  <!-- Modified by Caroline Simpson, 2026-10-05: support old and current
+       thesis labels and retain all populated thesis fields. GPL-2.0-or-later. -->
+  <xsl:template match="section[@label='Dissertations' or @label='Thesis/Dissertation']">
+    <subsection title="Theses and Dissertations">
       <xsl:for-each select="record">
-        <xsl:sort select="field[@label='Date']/value" order="descending"/>
-        <xsl:variable name="title">
-          <xsl:value-of select="field[@label='Dissertation Title']/value"/>
-        </xsl:variable>
-        <xsl:variable name="supervisor">
-          <xsl:value-of select="field[@label='Supervisor']/value"/>
-        </xsl:variable>
-        <xsl:variable name="date">
-          <xsl:value-of select="field[@label='Completion Date']/value"/>
-        </xsl:variable>
-        <xsl:variable name="type"> 
-          <xsl:value-of select="field[@label='Degree Type']/lov"/>
-        </xsl:variable>
-        <xsl:variable name="numpages"> 
-          <xsl:value-of select="field[@label='Number of Pages']/value"/>
-        </xsl:variable>
-        <xsl:variable name="description">
-          <xsl:call-template name="add_period">
-            <xsl:with-param name="string" select="field[@label='Description / Contribution Value']/value"/>
-          </xsl:call-template>
-        </xsl:variable>
-        <xsl:variable name="url">
-          <xsl:value-of select="field[@label='URL']/value"/>
-        </xsl:variable>
-        <xsl:variable name="name">
-          <xsl:choose>
-            <xsl:when test="$type = 'Doctorate'">
-              <xsl:text>Doctoral Thesis</xsl:text>
-            </xsl:when>
-            <xsl:when test="$type != ''">
-              <xsl:value-of select="$type"/>
-              <xsl:text> Thesis</xsl:text>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:variable>
-
-        <xsl:variable name="title_ends_with_punctuation">
-          <xsl:call-template name="ends_with_punctuation">
-            <xsl:with-param name="string" select="$title"/>
-          </xsl:call-template>
-        </xsl:variable>
-        <xsl:variable name="title_close">
-          <xsl:if test="$title_ends_with_punctuation != 'true'">
-            <xsl:text>.</xsl:text>
-          </xsl:if>
-        </xsl:variable>
-
-        <entry>
-          <list firstcomma=", &lt;bold&gt;">
-            <xsl:attribute name="close">
-              <xsl:value-of select="concat($title_close, '&lt;/bold&gt; ')"/>
-            </xsl:attribute>
-            <xsl:attribute name="close1">
-              <xsl:value-of select="concat($title_close, ' ')"/>
-            </xsl:attribute>
-            <item>
-              <xsl:value-of select="$myname"/>
-            </item>
-            <item>
-              <xsl:value-of select="$title"/>
-            </item>
-          </list>
-
-          <list close=". ">
-            <xsl:if test="$name != ''">
-              <item>
-                <xsl:value-of select="$name"/>
-              </item>
+        <entry type="thesis">
+          <bold><xsl:value-of select="field[@label='Dissertation Title' or @label='Thesis Title']/value"/></bold>
+          <linebreak/>
+          <list comma=" · ">
+            <xsl:if test="normalize-space(field[@label='Degree Type']) != ''">
+              <item><xsl:value-of select="field[@label='Degree Type']/*[self::lov or self::value]"/><xsl:text> thesis</xsl:text></item>
             </xsl:if>
             <xsl:apply-templates select="." mode="organization"/>
-            <xsl:if test="$numpages != ''">
-              <item>
-                <xsl:value-of select="$numpages"/>
-                <xsl:choose>
-                  <xsl:when test="number($numpages) = 1">
-                    <xsl:text> page</xsl:text>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:text> pages</xsl:text>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </item>
-            </xsl:if>
-            <xsl:if test="$date != ''">
-              <item>
-                <xsl:call-template name="year_from_date">
-                  <xsl:with-param name="date" select="$date"/>
-                </xsl:call-template>
-              </item>
-            </xsl:if>
+            <xsl:for-each select="field[@label='Completion Year' or @label='Completion Date'][normalize-space(value) != '']">
+              <item><xsl:value-of select="value"/></item>
+            </xsl:for-each>
           </list>
-          <list close=". ">
-            <xsl:if test="$supervisor != ''">
-              <item>
-                <xsl:text>Supervisor: </xsl:text>
-                <xsl:value-of select="$supervisor"/>
-              </item>
-            </xsl:if>
-          </list>
-
-          <xsl:if test="$description != ''">
-            <annotate>
-              <xsl:value-of select="$description"/>
-            </annotate>
-          </xsl:if>
+          <xsl:apply-templates mode="thesis-field" select="field[not(@label='Dissertation Title' or @label='Thesis Title' or @label='Degree Type' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Completion Year' or @label='Completion Date')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
         </entry>
       </xsl:for-each>
-
     </subsection>
+  </xsl:template>
+
+  <xsl:template match="field" mode="thesis-field">
+    <work-description>
+      <bold><xsl:value-of select="@label"/><xsl:text>: </xsl:text></bold>
+      <xsl:choose>
+        <xsl:when test="@label='URL' and normalize-space(value) != ''">
+          <url><xsl:value-of select="value"/></url>
+        </xsl:when>
+        <xsl:when test="value or lov"><xsl:value-of select="value|lov"/></xsl:when>
+        <xsl:otherwise>
+          <xsl:for-each select=".//@value[normalize-space(.) != '']">
+            <xsl:if test="position() != 1"><xsl:text>, </xsl:text></xsl:if><xsl:value-of select="."/>
+          </xsl:for-each>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:for-each select="bilingual/*[normalize-space(.) != '' and normalize-space(.) != normalize-space(../../value)]">
+        <linebreak/><italic><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></italic><xsl:value-of select="."/>
+      </xsl:for-each>
+    </work-description>
   </xsl:template>
 
   <xsl:template match="section[@label='Contributions']/section[@label='Publications']/section[@label='Conference Publications']">

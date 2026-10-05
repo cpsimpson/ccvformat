@@ -2,6 +2,14 @@
 
 ## 2026-10-05
 
+- Tightened thesis metadata spacing and removed the extra line break.
+- Disabled HTML serializer indentation to avoid introducing blank lines
+  into descriptions styled with white-space: pre-line.
+
+- Added a thesis layout supporting both Thesis/Dissertation and Dissertations.
+  Reads university/location attributes and retains all populated metadata,
+  descriptions, translations, URL, DOI and contribution information.
+
 - Formatted Community and Volunteer Activities like work experience:
   role, organization, dates and multiline activity description.
 
