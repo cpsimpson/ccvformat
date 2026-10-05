@@ -4,7 +4,8 @@
      Copyright (C) 2026 Caroline Simpson (modifications).
      GPL-2.0-or-later; see COPYING. -->
 <xsl:stylesheet version="1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:exsl="http://exslt.org/common" exclude-result-prefixes="exsl">
 
   <xsl:output indent="yes" method="xml" encoding="utf8"/>
 
@@ -650,7 +651,7 @@
 
         <!-- Modified 2026-10-05: include previously omitted work description. -->
         <xsl:if test="normalize-space(field[@label='Work Description']/value) != ''">
-          <work-description><xsl:value-of select="field[@label='Work Description']/value"/></work-description>
+          <work-description><xsl:call-template name="normalized-description"><xsl:with-param name="text" select="field[@label='Work Description']/value"/></xsl:call-template></work-description>
         </xsl:if>
       </entry>
     </xsl:for-each>
@@ -715,7 +716,7 @@
           </list>
           <!-- Modified 2026-10-05: affiliations use Activity Description. -->
           <xsl:if test="normalize-space(field[@label='Activity Description']/value) != ''">
-            <work-description><xsl:value-of select="field[@label='Activity Description']/value"/></work-description>
+            <work-description><xsl:call-template name="normalized-description"><xsl:with-param name="text" select="field[@label='Activity Description']/value"/></xsl:call-template></work-description>
           </xsl:if>
         </entry>
       </xsl:for-each>
@@ -3203,7 +3204,7 @@
             </italic>
           </xsl:if>
           <xsl:if test="normalize-space(field[@label='Work Description']/value) != ''">
-            <work-description><xsl:value-of select="field[@label='Work Description']/value"/></work-description>
+            <work-description><xsl:call-template name="normalized-description"><xsl:with-param name="text" select="field[@label='Work Description']/value"/></xsl:call-template></work-description>
           </xsl:if>
           <!-- Preserve additional populated fields not represented above. -->
           <xsl:apply-templates select="field[not(@label='Position Title' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Other Organization Type' or @label='Unit / Division' or @label='Start Date' or @label='End Date' or @label='Position Status' or @label='Work Description')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
@@ -3239,10 +3240,145 @@
             </italic>
           </xsl:if>
           <xsl:if test="normalize-space(field[@label='Activity Description']/value) != ''">
-            <work-description><xsl:value-of select="field[@label='Activity Description']/value"/></work-description>
+            <work-description><xsl:call-template name="normalized-description"><xsl:with-param name="text" select="field[@label='Activity Description']/value"/></xsl:call-template></work-description>
           </xsl:if>
           <!-- Preserve additional populated fields not represented above. -->
           <xsl:apply-templates select="field[not(@label='Role' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Other Organization Type' or @label='Unit / Division' or @label='Start Date' or @label='End Date' or @label='Position Status' or @label='Activity Description')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
+        </entry>
+      </xsl:for-each>
+    </subsection>
+  </xsl:template>
+
+  <!-- Modified by Caroline Simpson, 2026-10-05: trim description lines,
+       collapse horizontal whitespace, and omit empty lines. Original XML
+       is unchanged. GPL-2.0-or-later; see COPYING. -->
+  <!-- Modified 2026-10-05: convert consecutive hyphen/bullet lines to lists. -->
+  <xsl:template name="normalized-description">
+    <xsl:param name="text"/>
+    <xsl:variable name="lines"><xsl:call-template name="description-lines"><xsl:with-param name="text" select="$text"/></xsl:call-template></xsl:variable>
+    <xsl:for-each select="exsl:node-set($lines)/description-line">
+      <xsl:choose>
+        <xsl:when test="@bullet='yes'">
+          <xsl:if test="not(preceding-sibling::*[1][@bullet='yes'])">
+            <xsl:variable name="group" select="generate-id(preceding-sibling::*[not(@bullet='yes')][1])"/>
+            <bullet-list>
+              <bullet-item><xsl:value-of select="."/></bullet-item>
+              <xsl:for-each select="following-sibling::*[@bullet='yes'][generate-id(preceding-sibling::*[not(@bullet='yes')][1])=$group]">
+                <bullet-item><xsl:value-of select="."/></bullet-item>
+              </xsl:for-each>
+            </bullet-list>
+          </xsl:if>
+        </xsl:when>
+        <xsl:otherwise><description-line><xsl:value-of select="."/></description-line></xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+  <xsl:template name="description-lines">
+    <xsl:param name="text"/>
+    <xsl:variable name="line" select="normalize-space(substring-before(concat($text, '&#10;'), '&#10;'))"/>
+    <xsl:if test="$line != ''">
+      <description-line>
+        <xsl:choose>
+          <xsl:when test="starts-with($line, '- ') or starts-with($line, '• ')">
+            <xsl:attribute name="bullet">yes</xsl:attribute>
+            <xsl:value-of select="normalize-space(substring($line, 3))"/>
+          </xsl:when>
+          <xsl:otherwise><xsl:value-of select="$line"/></xsl:otherwise>
+        </xsl:choose>
+      </description-line>
+    </xsl:if>
+    <xsl:if test="contains($text, '&#10;')">
+      <xsl:call-template name="description-lines"><xsl:with-param name="text" select="substring-after($text, '&#10;')"/></xsl:call-template>
+    </xsl:if>
+  </xsl:template>
+
+  <!-- Modified by Caroline Simpson, 2026-10-05: teaching CV layout.
+       Copyright (C) 2026 Caroline Simpson (modifications).
+       GPL-2.0-or-later; see COPYING. -->
+  <xsl:template match="section[@label='Teaching Activities']">
+    <section title="Teaching Activities"><xsl:apply-templates/></section>
+  </xsl:template>
+  <xsl:template match="section[@label='Teaching Activities']/section[@label='Courses Taught']">
+    <subsection title="Courses Taught">
+      <xsl:for-each select="record">
+        <entry type="teaching">
+          <bold><xsl:value-of select="normalize-space(field[@label='Role']/value)"/>
+            <xsl:if test="normalize-space(field[@label='Role']) != '' and normalize-space(field[@label='Course Code']) != ''"><xsl:text> — </xsl:text></xsl:if>
+            <xsl:value-of select="normalize-space(field[@label='Course Code']/value)"/>
+          </bold>
+          <xsl:if test="normalize-space(field[@label='Course Title']) != ''">
+            <linebreak/><xsl:value-of select="normalize-space(field[@label='Course Title']/value)"/>
+          </xsl:if>
+          <linebreak/>
+          <list comma=" · ">
+            <xsl:apply-templates select="." mode="organization"/>
+            <xsl:if test="normalize-space(field[@label='Department']) != ''"><item><xsl:value-of select="field[@label='Department']/value"/></item></xsl:if>
+          </list>
+          <xsl:variable name="start" select="normalize-space(field[@label='Start Date']/value)"/>
+          <xsl:variable name="end" select="normalize-space(field[@label='End Date']/value)"/>
+          <xsl:if test="$start != '' or $end != ''">
+            <linebreak/><italic><xsl:value-of select="$start"/>
+              <xsl:if test="$start != '' and $end != '' and $start != $end"><xsl:text>–</xsl:text></xsl:if>
+              <xsl:if test="$end != $start"><xsl:value-of select="$end"/></xsl:if>
+            </italic>
+          </xsl:if>
+          <xsl:for-each select="field[not(@label='Role' or @label='Course Code' or @label='Course Title' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Department' or @label='Start Date' or @label='End Date')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]">
+            <xsl:choose>
+              <xsl:when test="@label='Section' or @label='Activity Description' or @label='Course Topic'">
+                <work-description><bold><xsl:value-of select="@label"/><xsl:text>: </xsl:text></bold>
+                  <xsl:call-template name="normalized-description"><xsl:with-param name="text" select="value"/></xsl:call-template>
+                  <xsl:for-each select="bilingual/*[normalize-space(.) != '' and normalize-space(.) != normalize-space(../../value)]"><linebreak/><italic><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></italic><xsl:call-template name="normalized-description"><xsl:with-param name="text" select="."/></xsl:call-template></xsl:for-each>
+                </work-description>
+              </xsl:when>
+              <xsl:otherwise><xsl:apply-templates select="." mode="thesis-field"/></xsl:otherwise>
+            </xsl:choose>
+          </xsl:for-each>
+          <xsl:for-each select="section[@label='Co-instructors']/record">
+            <xsl:if test="field[normalize-space(.) != '']">
+              <work-description><bold>Co-instructor: </bold>
+                <xsl:value-of select="normalize-space(field[@label='First Name']/value)"/>
+                <xsl:if test="normalize-space(field[@label='First Name']) != '' and normalize-space(field[@label='Family Name']) != ''"><xsl:text> </xsl:text></xsl:if>
+                <xsl:value-of select="normalize-space(field[@label='Family Name']/value)"/>
+              </work-description>
+              <xsl:apply-templates mode="thesis-field" select="field[not(@label='First Name' or @label='Family Name')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
+            </xsl:if>
+          </xsl:for-each>
+          <xsl:apply-templates select="section[not(@label='Co-instructors')]"/>
+        </entry>
+      </xsl:for-each>
+    </subsection>
+  </xsl:template>
+
+
+  <!-- Modified by Caroline Simpson, 2026-10-05: credential CV layout.
+       Copyright (C) 2026 Caroline Simpson (modifications).
+       GPL-2.0-or-later; see COPYING. -->
+  <xsl:template match="section[@label='Credentials']">
+    <subsection title="Credentials">
+      <xsl:for-each select="record">
+        <entry type="credential">
+          <bold><xsl:value-of select="normalize-space(field[@label='Title']/value)"/></bold>
+          <linebreak/>
+          <list comma=" · "><xsl:apply-templates select="." mode="organization"/></list>
+          <xsl:variable name="start" select="normalize-space(field[@label='Effective Date']/value)"/>
+          <xsl:variable name="end" select="normalize-space(field[@label='End Date']/value)"/>
+          <xsl:if test="$start != '' or $end != ''">
+            <linebreak/><italic>
+              <xsl:if test="$start != ''"><xsl:text>Issued: </xsl:text><xsl:value-of select="$start"/></xsl:if>
+              <xsl:if test="$end != ''"><xsl:if test="$start != ''"><xsl:text> · </xsl:text></xsl:if><xsl:text>End date: </xsl:text><xsl:value-of select="$end"/></xsl:if>
+            </italic>
+          </xsl:if>
+          <xsl:if test="normalize-space(field[@label='Description']) != ''">
+            <work-description>
+              <xsl:call-template name="normalized-description"><xsl:with-param name="text" select="field[@label='Description']/value"/></xsl:call-template>
+              <xsl:for-each select="field[@label='Description']/bilingual/*[normalize-space(.) != '' and normalize-space(.) != normalize-space(../../value)]">
+                <linebreak/><italic><xsl:value-of select="local-name()"/><xsl:text>: </xsl:text></italic>
+                <xsl:call-template name="normalized-description"><xsl:with-param name="text" select="."/></xsl:call-template>
+              </xsl:for-each>
+            </work-description>
+          </xsl:if>
+          <xsl:apply-templates mode="thesis-field" select="field[not(@label='Title' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Effective Date' or @label='End Date' or @label='Description')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
+          <xsl:apply-templates select="section"/>
         </entry>
       </xsl:for-each>
     </subsection>

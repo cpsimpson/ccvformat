@@ -295,3 +295,34 @@ Blank fields are omitted in this section regardless of --clean.
 Distinct populated translations are retained without duplicating the
 primary description. Organization reference-table attributes are read
 correctly. Applies to HTML and LaTeX output.
+
+Description spacing (modified 2026-10-05)
+---------------------------------------
+
+Employment, affiliation and community/volunteer descriptions omit blank
+lines, trim indentation, and collapse repeated spaces/tabs within each
+line. Each nonempty source line remains on a separate output line.
+This applies with or without --clean and does not alter input XML.
+
+Description lines starting with "- " or "• " now become proper bulleted
+lists in HTML and LaTeX (modified 2026-10-05). Consecutive bullet lines
+are grouped; other lines remain ordinary text in their original order.
+
+Teaching Activities (modified 2026-10-05)
+---------------------------------------
+
+Courses Taught entries show role and course code, course title,
+university/location and department, and date range (a single date for
+one-day lectures). All remaining populated fields appear as labeled
+details, including session, topic, level, section/lecture description,
+student count, credits, weekly hours and guest-lecture status. Nested
+co-instructors display full names. Blank fields are omitted even without
+--clean. Input text is retained; description spacing is normalized.
+
+Credentials (modified 2026-10-05)
+-------------------------------
+
+Credentials show title, issuing organization/location, available issued
+and end dates, then the normalized description. Distinct translations
+and other populated fields are retained; blank fields are omitted even
+without --clean. HTML uses the same entry spacing as work experience.

@@ -164,4 +164,12 @@
   <xsl:template match="entry[@type='thesis']">
     <div class="work-entry thesis-entry"><xsl:apply-templates/></div>
   </xsl:template>
+<!-- Modified 2026-10-05: semantic description lists. -->
+  <xsl:template match="bullet-list"><ul class="description-list"><xsl:apply-templates/></ul></xsl:template>
+  <xsl:template match="bullet-item"><li><xsl:apply-templates/></li></xsl:template>
+  <xsl:template match="description-line"><div class="description-line"><xsl:apply-templates/></div></xsl:template>
+<!-- Modified 2026-10-05: compact teaching entry blocks. -->
+  <xsl:template match="entry[@type='teaching']"><div class="work-entry teaching-entry"><xsl:apply-templates/></div></xsl:template>
+<!-- Modified 2026-10-05: credential entry blocks. -->
+  <xsl:template match="entry[@type='credential']"><div class="work-entry credential-entry"><xsl:apply-templates/></div></xsl:template>
 </xsl:stylesheet>

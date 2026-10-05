@@ -157,4 +157,15 @@
 \par
 </xsl:text>
   </xsl:template>
+<!-- Modified 2026-10-05: description lists and prose lines. -->
+  <xsl:template match="bullet-list"><xsl:text>
+\begin{itemize}
+</xsl:text><xsl:apply-templates/><xsl:text>
+\end{itemize}
+</xsl:text></xsl:template>
+  <xsl:template match="bullet-item"><xsl:text>
+\item </xsl:text><xsl:apply-templates/></xsl:template>
+  <xsl:template match="description-line"><xsl:apply-templates/><xsl:text>
+\par
+</xsl:text></xsl:template>
 </xsl:stylesheet>

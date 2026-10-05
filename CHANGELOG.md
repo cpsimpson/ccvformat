@@ -2,6 +2,20 @@
 
 ## 2026-10-05
 
+- Added credential layout with title, issuer/location, dates and normalized
+  descriptions, retaining other populated fields and distinct translations.
+
+- Added a teaching layout including university reference data, course
+  metadata, descriptions, student counts and nested co-instructor names.
+  Preserves other populated fields and omits empty teaching details.
+
+- Converted consecutive description lines beginning with "- " or "• "
+  to HTML list items and LaTeX itemize, retaining prose in source order.
+
+- Normalized employment, affiliation and volunteer description spacing:
+  omit empty lines, trim indentation and collapse horizontal whitespace,
+  while preserving separate responsibilities with explicit line breaks.
+
 - Tightened thesis metadata spacing and removed the extra line break.
 - Disabled HTML serializer indentation to avoid introducing blank lines
   into descriptions styled with white-space: pre-line.

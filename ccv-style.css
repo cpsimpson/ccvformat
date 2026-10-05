@@ -49,3 +49,14 @@ a { color: var(--accent); text-underline-offset: 3px; }
 /* Modified 2026-10-05: compact thesis metadata spacing. */
 .thesis-entry .work-description { margin-top: 2px; }
 .thesis-entry .work-description:first-of-type { margin-top: 6px; }
+
+/* Modified 2026-10-05: compact semantic responsibility lists. */
+.description-list { margin: 4px 0; padding-left: 1.3em; white-space: normal; }
+.description-list li { padding-left: .15em; margin: 0; }
+.description-line { white-space: normal; }
+
+/* Modified 2026-10-05: compact teaching details. */
+.teaching-entry .work-description { margin-top: 3px; }
+
+/* Modified 2026-10-05: credential detail spacing. */
+.credential-entry .work-description { margin-top: 6px; }
