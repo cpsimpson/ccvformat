@@ -266,3 +266,11 @@ Other Organization in the same record, and the consumed Other
 Organization field is omitted to avoid duplication. Existing populated
 Organization fields are retained. Input XML is never modified.
 Without --clean, the existing conversion behavior is retained.
+
+Non-academic work experience (modified 2026-10-05)
+------------------------------------------------
+
+Roles display position title, employer and division, dates and status,
+then the work description. HTML preserves description line breaks.
+Source order and date precision are retained; a missing end date is not
+assumed to mean Present. Applies with and without --clean.

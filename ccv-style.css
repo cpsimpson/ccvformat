@@ -38,3 +38,10 @@ a { color: var(--accent); text-underline-offset: 3px; }
   p { orphans: 3; widows: 3; }
   a { color: inherit; text-decoration: none; }
 }
+
+/* Modified 2026-10-05: resume-style non-academic roles. */
+.work-entry { margin: 0 0 24px; }
+.work-entry > b:first-child { font-size: 1.06em; }
+.work-entry > i { font-size: .9em; color: #53616c; }
+.work-description { white-space: pre-line; margin-top: 8px; }
+@media print { .work-entry { margin-bottom: 16px; } }

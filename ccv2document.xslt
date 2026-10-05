@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Modified by Caroline Simpson, 2026-10-05: CV layout for non-academic work.
+     Copyright (C) 2026 Caroline Simpson (modifications).
+     GPL-2.0-or-later; see COPYING. -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -3237,6 +3240,43 @@
         <xsl:text>.</xsl:text>
       </xsl:if>
     </xsl:if>
+  </xsl:template>
+
+
+  <!-- Resume-style roles in source order; missing end dates are not inferred. -->
+  <xsl:template match="section[@label='Non-academic Work Experience']">
+    <subsection title="Non-academic Work Experience">
+      <xsl:for-each select="record">
+        <entry type="work">
+          <bold><xsl:value-of select="field[@label='Position Title']/value"/></bold>
+          <linebreak/>
+          <list comma=" · " close="">
+            <xsl:apply-templates select="." mode="organization"/>
+            <xsl:if test="normalize-space(field[@label='Unit / Division']) != ''">
+              <item><xsl:value-of select="field[@label='Unit / Division']/value"/></item>
+            </xsl:if>
+          </list>
+          <xsl:variable name="start" select="normalize-space(field[@label='Start Date']/value)"/>
+          <xsl:variable name="end" select="normalize-space(field[@label='End Date']/value)"/>
+          <xsl:variable name="status" select="normalize-space(field[@label='Position Status'])"/>
+          <xsl:if test="$start != '' or $end != '' or $status != ''">
+            <linebreak/>
+            <italic>
+              <xsl:value-of select="$start"/>
+              <xsl:if test="$start != '' and $end != '' and $start != $end"><xsl:text>–</xsl:text></xsl:if>
+              <xsl:if test="$start != $end"><xsl:value-of select="$end"/></xsl:if>
+              <xsl:if test="($start != '' or $end != '') and $status != ''"><xsl:text> · </xsl:text></xsl:if>
+              <xsl:value-of select="$status"/>
+            </italic>
+          </xsl:if>
+          <xsl:if test="normalize-space(field[@label='Work Description']/value) != ''">
+            <work-description><xsl:value-of select="field[@label='Work Description']/value"/></work-description>
+          </xsl:if>
+          <!-- Preserve additional populated fields not represented above. -->
+          <xsl:apply-templates select="field[not(@label='Position Title' or @label='Organization' or @label='Other Organization' or @label='Other Organization Location' or @label='Other Organization Type' or @label='Unit / Division' or @label='Start Date' or @label='End Date' or @label='Position Status' or @label='Work Description')][normalize-space(.) != '' or .//@value[normalize-space(.) != '']]"/>
+        </entry>
+      </xsl:for-each>
+    </subsection>
   </xsl:template>
 
 </xsl:stylesheet>

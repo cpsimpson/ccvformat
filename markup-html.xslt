@@ -152,4 +152,11 @@
     </font>
   </xsl:template>
 
+<!-- Modified 2026-10-05: role blocks and multiline work descriptions. -->
+  <xsl:template match="entry[@type='work']">
+    <div class="work-entry"><xsl:apply-templates/></div>
+  </xsl:template>
+  <xsl:template match="work-description">
+    <div class="work-description"><xsl:apply-templates/></div>
+  </xsl:template>
 </xsl:stylesheet>

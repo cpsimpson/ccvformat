@@ -2,6 +2,9 @@
 
 <!-- Logical to visual formatting --> 
 
+<!-- Modified by Caroline Simpson, 2026-10-05: render work descriptions.
+     Copyright (C) 2026 Caroline Simpson (modifications).
+     GPL-2.0-or-later; see COPYING. -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output indent="yes" method="text"/>
@@ -147,4 +150,11 @@
     <xsl:text>}</xsl:text>
   </xsl:template>
 
+<xsl:template match="work-description">
+    <xsl:text>
+\par
+</xsl:text><xsl:apply-templates/><xsl:text>
+\par
+</xsl:text>
+  </xsl:template>
 </xsl:stylesheet>
