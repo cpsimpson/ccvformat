@@ -2,6 +2,9 @@
 
 ## 2026-10-05
 
+- Formatted Community and Volunteer Activities like work experience:
+  role, organization, dates and multiline activity description.
+
 - Included previously omitted academic Work Description and affiliation
   Activity Description beneath their entries in HTML and LaTeX.
 - Added resume-style non-academic roles: title, employer, dates/status,

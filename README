@@ -278,3 +278,8 @@ assumed to mean Present. Applies with and without --clean.
 Academic employment and affiliations also include their populated Work
 Description and Activity Description fields beneath the corresponding
 entries (modified 2026-10-05). Blank descriptions are omitted.
+
+Community and Volunteer Activities use the same resume-style layout:
+role, organization, dates, then Activity Description, with HTML line
+breaks preserved (modified 2026-10-05). Source order is retained and
+missing end dates are not inferred. Works with and without --clean.
