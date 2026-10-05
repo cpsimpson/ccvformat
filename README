@@ -1,0 +1,234 @@
+
+     ccvformat: convert Canadian Common CV to HTML, LaTeX, or PDF
+
+            http://www.mathstat.dal.ca/~selinger/ccv2html
+
+                                * * *
+
+I. Installation
+=========================
+
+Prerequisite: xsltproc version 1.1.28 (or better). For example, in
+Ubuntu, you can install this as follows:
+
+ sudo apt-get install xsltproc
+
+If you use another operating system, follow that operating system's
+installation instructions. I used xsltproc version 1.1.28 for testing;
+other versions may or may not be compatible.
+
+Next, unpack the ccvformat archive:
+
+ tar zxf ccvformat-0.1.tar.gz
+
+This creates a directory ccvformat-0.1, containing the scripts
+ccv2html, ccv2tex, as well as several auxiliary files, documentation,
+and example files. 
+
+The scripts ccv2html, ccv2tex can be run directly from within the
+ccvformat-0.1 directory.
+
+Alternatively, you can copy the files ccv2html, ccv2tex, wrap.xslt,
+ccv2document.xslt, lists.xslt, markup-html.xslt, and markup-latex.xslt
+to a system-wide directory such as /usr/local/bin. Note that all seven
+files must be copied to the same location.
+
+
+II. Usage
+=========================
+
+A sample Canadian Common CV has been included in the file CCV.xml for
+testing purposes.
+
+To format a Canadian Common CV as HTML:
+
+ ccv2html CCV.xml
+
+To format a Canadian Common CV as LaTeX:
+
+ ccv2tex CCV.xml
+
+To format a Canadian Common CV as PDF, first generate LaTeX, then use
+pdflatex to generate PDF. The pdflatex program must be separately
+installed. 
+
+ ccv2tex CCV.xml
+ pdflatex CCV.tex
+
+The output will be written to the files CCV.html, CCV.tex, or CCV.pdf,
+respectively.
+
+
+III. How it works
+=========================
+
+The Canadian Common CV is kept as an XML (extended markup language)
+file.  Xsltproc is a general-purpose tool for transforming XML files,
+using scripts written in a language known as XSLT.
+
+We convert the CCV XML format into HTML or LaTeX in multiple steps,
+each of which corresponds to a provided XSLT script. In principle, you
+can perform these steps one at a time:
+
+ xsltproc wrap.xslt CCV.xml > CCV1.xml
+ xsltproc ccv2document.xslt CCV1.xml > CCV2.xml
+ xsltproc lists.xslt CCV2.xml > CCV3.xml
+ xsltproc markup-html.xslt CCV3.xml > CCV.html
+ xsltproc markup-latex.xslt CCV3.xml > CCV.tex
+
+Here is a more detailed description of the five XSLT scripts used:
+
+wrap.xslt: 
+----------
+
+ Prepare CCV format for easier parsing.
+
+ Input: XML Canadian Common CV format.
+ Output: XML format, with sections expanded for easier parsing.
+
+ Explanation: The Canadian Common CV xml format represents list of
+ records without an enclosing tag. For example:
+
+ <section label="Recognitions" id="x" recordId="a"/>
+ <section label="Recognitions" id="x" recordId="b"/>
+ <section label="Recognitions" id="x" recordId="c"/>
+
+ The wrap.xslt script wraps such listings into an easier-to-parse
+ format, namely, a single section divided into multiple records:
+
+ <section label="Recognitions" id="x">
+   <record label="Recognitions" id="a"/>
+   <record label="Recognitions" id="b"/>
+   <record label="Recognitions" id="c"/>
+ </section>
+
+ccv2document.xslt: 
+------------------
+
+ Logical formatting of CV.
+
+ Input: XML format as output by wrap.xslt.
+ Output: XML format representing a formatted CV with list macros.
+
+lists.xslt:
+-----------
+
+ Expands list macros.
+
+ Input: XML format with list macros, as output by ccv2document.xslt.
+ Output: XML logical document.
+
+ At this point, we have a document with logical formatting. The
+ document uses the following structure:
+
+ <document title="..."> .... </document>
+
+   Top-level document with title. A document consists of zero or more sections.
+ 
+ <section title="..."> .... </section>
+
+   A section with title. A section contains zero or more subsections,
+   entries, and/or key-value tables.
+
+ <subsection title="..."> .... </subsection>
+
+   A subsection with title. A section contains zero or more
+   subsections, entries, and/or key-value tables.
+
+ <key-value-table>
+   <row><key>...</key><value>...</value></row>
+   <row><key>...</key><value>...</value></row>
+   ...
+ </key-value-table>
+
+   A key-value table, useful for tabular information such as "Name",
+   "Address", "Phone" etc.
+
+ <entry>...</entry>
+
+   An entry is a free-form paragraph.
+
+ In addition, there are also markup tags:
+
+  <bold>...</bold>: bold face.
+
+  <italic>...</italic>: italic.
+
+  <warning>...</warning>: red text.
+
+  <linebreak/>: a line break.
+
+  <nobr>...</nobr>: inhibit line breaks.
+
+  <url>...</url>: a URL.
+
+  <annotate>...</annotate>: a paragraph within a paragraph.
+
+markup-html.xslt:
+-----------------
+
+ Convert logical document to HTML.
+
+ Input: XML logical document format.
+ Output: HTML.
+ 
+markup-latex.xslt:
+------------------
+
+ Convert logical document to LaTeX.
+
+ Input: XML logical document format.
+ Output: LaTeX.
+
+
+IV. Customizing
+=========================
+
+To make meaningful modifications, you probably need to learn XSLT and
+XPath. I recommend these tutorials:
+
+http://www.w3schools.com/xsl/
+http://www.w3schools.com/xpath/
+
+More complete reference information can be found here:
+
+http://www.w3.org/TR/xslt
+http://www.w3.org/TR/xpath/
+
+The XSLT script ccv2document.xslt determines the logical formatting of
+the CV: what information to include, in what order to include the
+information, how to format entries, etc. It can be updated to fit your
+needs.
+
+The XSLT scripts markup-html.xslt and markup-latex.xslt handle the
+conversion to actual HTML and LaTeX, respectively. Here, things like
+font sizes, page dimensions, indentation, and other aspects of
+physical formatting could be changed or added.
+
+The XSLT scripts wrap.xslt and lists.xslt are general-purpose and
+probably do not need to be modified.
+
+
+V. Copyright and license
+=========================
+
+ ccvformat, version 0.1
+
+ Copyright (C) 2014-2015 Peter Selinger
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or (at
+ your option) any later version.
+
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307,
+ USA. See also http://www.gnu.org/.
+
+ See the file COPYING for details.

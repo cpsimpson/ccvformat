@@ -1,0 +1,108 @@
+<html>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+</list>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+<item>a</item>
+</list>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+<item>a</item>
+<item>b</item>
+</list>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+</list>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+</list>
+
+<list nil="" open="" close=". " comma=", " lastcomma=", and " comma2=" and ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+<item>e</item>
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+<item>a</item>
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+<item>a</item>
+<item>b</item>
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+</list>
+
+<list nil="" open1="Supervisor: " open="Supervisors: " close=". " comma=", ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+<item>e</item>
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+<item>a</item>
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+<item>a</item>
+<item>b</item>
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+</list>
+
+<list nil="" open="&lt;b&gt;" firstcomma=",&lt;/b&gt; " comma=", "
+      close1=".&lt;/b&gt; " close=". ">
+<item>a</item>
+<item>b</item>
+<item>c</item>
+<item>d</item>
+<item>e</item>
+</list>
+
+</html>

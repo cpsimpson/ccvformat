@@ -1,0 +1,2585 @@
+<?xml version="1.0"?>
+<generic-cv:generic-cv xmlns:generic-cv="http://www.cihr-irsc.gc.ca/generic-cv/1.0.0" lang="en" dateTimeGenerated="2014-09-11 20:14:16">
+  <section id="f589cbc028c64fdaa783da01647e5e3c" label="Personal Information">
+    <section id="2687e70e5d45487c93a8a02626543f64" label="Identification" recordId="ce85fa3eca8a4b6e94f337154b4de361">
+      <field id="ee8beaea41f049d8bcfadfbfa89ac09e" label="Title">
+        <lov id="00000000000000000000000000000317">Dr.</lov>
+      </field>
+      <field id="5c6f17e8a67241e19667815a9e95d9d0" label="Family Name">
+        <value type="String">Sampleman</value>
+      </field>
+      <field id="98ad36fee26a4d6b8953ea764f4fed04" label="First Name">
+        <value type="String">Jane</value>
+      </field>
+      <field id="4ca83c1aaa6a42a78eac0290368e70f3" label="Middle Name">
+        <value type="String"/>
+      </field>
+      <field id="41ed5ea3ae974428b3fcb592161b6423" label="Date of Birth">
+        <value format="MM/dd" type="MonthDay">10/08</value>
+      </field>
+      <field id="2b72a344523c467da0c896656b5290c0" label="Correspondence language">
+        <lov id="00000000000000000000000000000054">English</lov>
+      </field>
+    </section>
+    <section id="c1f614961342429c86397e81cd6f50f5" label="Language Skills" recordId="8b9ec4dadae24cf48dc6f1477e6ad7c1">
+      <field id="ee161805b4f941e48f05e050e364e585" label="Language">
+        <lov id="00000000000000000000000000003125">English</lov>
+      </field>
+      <field id="a9d0f0666e5b47dcb9acb30bd5cab407" label="Read">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="12173f36422446479799578ba07d96c8" label="Write">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="e670ac0f2c3e48a3b13d487e66ea7889" label="Speak">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="aa02c54f1e5b4672a0b96def14e5b02e" label="Understand">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="fc6ac63e9ec04129aec7b26e5a729920" label="Peer Review">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+    </section>
+    <section id="c1f614961342429c86397e81cd6f50f5" label="Language Skills" recordId="8b56c47659724f858d013fd9df05a085">
+      <field id="ee161805b4f941e48f05e050e364e585" label="Language">
+        <lov id="00000000000000000000000000003141">French</lov>
+      </field>
+      <field id="a9d0f0666e5b47dcb9acb30bd5cab407" label="Read">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="12173f36422446479799578ba07d96c8" label="Write"/>
+      <field id="e670ac0f2c3e48a3b13d487e66ea7889" label="Speak"/>
+      <field id="aa02c54f1e5b4672a0b96def14e5b02e" label="Understand"/>
+      <field id="fc6ac63e9ec04129aec7b26e5a729920" label="Peer Review"/>
+    </section>
+    <section id="b92721f0510a4ef4b0d1cf7f5ea3f01e" label="Address" primaryIndicator="true" recordId="55884dea2e9c4332bea31f8bcbd658aa">
+      <field id="35c302c36fe9479287206171087fb185" label="Address Type">
+        <lov id="00000000000000000000000000000009">Primary Affiliation</lov>
+      </field>
+      <field id="2de0fe4994f546c695a060d68e8e03ca" label="Address - Line 1">
+        <value type="String">Department of Culinary Science</value>
+      </field>
+      <field id="dafdb980e181416abc5e26c0770df662" label="Line 2">
+        <value type="String">Bay Leaf University</value>
+      </field>
+      <field id="fc390eae1fbc45c89789f2ecbb5bed8e" label="Line 3">
+        <value type="String">1234 Main St.</value>
+      </field>
+      <field id="d51e2de9122744489ac2231d85995617" label="Line 4">
+        <value type="String">PO BOX 12345</value>
+      </field>
+      <field id="5365d87b9ff145d3a8d0d4fc21af57bb" label="Line 5">
+        <value type="String"/>
+      </field>
+      <field id="499d69637b4148d0a49463a2881e9d09" label="City">
+        <value type="String">Bay Leaf</value>
+      </field>
+      <field id="b1071063df03484ebec65cd1a3464438" label="Location">
+        <refTable refValueId="00000000000000000000039926666400" label="Country-Subdivision">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+        </refTable>
+      </field>
+      <field id="a41f1e118e61482eb3cdde4aaeb783e8" label="Postal / Zip Code">
+        <value type="String">A0A 0A0</value>
+      </field>
+      <field id="b77ff4a2c49247e0af668be52704da91" label="Address Start Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+      <field id="4ab2497d7a0f471ebc6a50e32dd4f22d" label="Address End Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+    </section>
+    <section id="2a3366209cf8477f82556b045188f131" label="Telephone" primaryIndicator="true" recordId="28bc045ec2514040b3d2d5be7561d4c8">
+      <field id="ccef121ae875427f829024aabb39fa8c" label="Phone Type">
+        <lov id="00000000000000000000000000000206">Work</lov>
+      </field>
+      <field id="63dedd46a5204cda8257227bbb3b6675" label="Country Code">
+        <value type="String">1</value>
+      </field>
+      <field id="13cdf3a5e13643f5bc74566bf075253c" label="Area Code">
+        <value type="String">123</value>
+      </field>
+      <field id="1ca756fe70964371a2b9f57bdf567a5d" label="Telephone Number">
+        <value type="String">4567890</value>
+      </field>
+      <field id="afe0657785084098bb718345280eb840" label="Extension">
+        <value type="String"/>
+      </field>
+      <field id="69c67fae5d4849d08f4f9799ae0a2335" label="Telephone Start Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+      <field id="a90e95e1d278467eaf1847464f09f39f" label="Telephone End Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+    </section>
+    <section id="f8e3a3a0d3cf4c76bfde7aba6c82fc25" label="Email" primaryIndicator="true" recordId="53702163388a4f87b4e622b7978f1a7b">
+      <field id="fa6ec0ff1fdb4472897ece080504744f" label="Email Type">
+        <lov id="00000000000000000000000000000124">Work</lov>
+      </field>
+      <field id="de93245673a54fa8bf7bfc032c7f8717" label="Email Address">
+        <value type="String">doe@blu.ca</value>
+      </field>
+      <field id="8c7dcf3ac68544509bd303b7624d42cc" label="Email Start Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+      <field id="87784054a201415d94cbf31c93210ab5" label="Email End Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+    </section>
+    <section id="69084a96fc764965a8d4687dcb886504" label="Website" recordId="14638c25c89f4014b5d92ebc5ea970ea">
+      <field id="a4a7235b57e54c3da40de44b44af4d77" label="Website Type">
+        <lov id="00000000000000000000000000000302">Corporate</lov>
+      </field>
+      <field id="3d368ce1ce0c4f92a473091888ab9445" label="URL">
+        <value type="String">www.food.blu.ca/~doe</value>
+      </field>
+    </section>
+  </section>
+  <section id="0d82220f95f043e0bc9608bbb6bf413a" label="Education">
+    <section id="aee5a225a504442fb83f716235cfb587" label="Degrees" recordId="63a3d00b669d44fd86fb83497d42a185">
+      <field id="a83a0af883924c57bb66107cc32b6d5e" label="Degree Type">
+        <lov id="00000000000000000000000000000073">Doctorate</lov>
+      </field>
+      <field id="7df537009941493789a32bcae3499909" label="Degree Name">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="35696972e69541dd86a80521d3737b26" label="Specialization">
+        <value type="Bilingual">Advanced Cooking (Culinary Science)</value>
+        <bilingual>
+          <english>Advanced Cooking (Culinary Science)</english>
+        </bilingual>
+      </field>
+      <field id="ca55badff5c1483cbb1c69495a22d0af" label="Thesis Title">
+        <value type="String"/>
+      </field>
+      <field id="6e225f28f003427aa79aa68ff0aa3865" label="Organization">
+        <refTable refValueId="00000000000000000000052845182793" label="Organization">
+          <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Iowa" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="University of Iowa, Iowa City" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="020ec1f40f3d4065bf5424f77209b8e4" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="f1a127d96eb64b1e8776023106ac4a00" label="Other Organization Type"/>
+      <field id="fc5c85c9557441399dba19033697d56d" label="Other Organization Location"/>
+      <field id="c42a1deb6fe046dfa5502169032760de" label="Degree Status">
+        <lov id="00000000000000000000000000000068">Completed</lov>
+      </field>
+      <field id="337ee6b2606c4c899f0e0c4ec3bd6ec2" label="Degree Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="4b818aef68a84743b19149d376032afb" label="Degree Received Date">
+        <value format="yyyy/MM" type="YearMonth">1990/6</value>
+      </field>
+      <field id="91b70ad64b6843fdaae1e94282bc77f0" label="Degree Expected Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="b04a491dc6ea4fc99e2453dbfb834965" label="Transferred to PhD without completing Masters?"/>
+      <section id="49eb8b6f4d0c4e3aa68dbe242bdecfb4" label="Supervisors" recordId="b8f2a861fb3b4564bd331e3e5047eafe">
+        <field id="c5d78ee68528412d892acc849851dbe6" label="Supervisor Name">
+          <value type="String">John H. Sanford</value>
+        </field>
+        <field id="93f1886a6ace43659d519b628e9f026e" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">1987/9</value>
+        </field>
+        <field id="7dd6df1257ef461f806b5e644741e1a2" label="End Date">
+          <value format="yyyy/MM" type="YearMonth">1990/8</value>
+        </field>
+      </section>
+    </section>
+    <section id="aee5a225a504442fb83f716235cfb587" label="Degrees" recordId="4c2675a5ed7a49a586391f934ddd84b0">
+      <field id="a83a0af883924c57bb66107cc32b6d5e" label="Degree Type">
+        <lov id="00000000000000000000000000000081">Master's non-Thesis</lov>
+      </field>
+      <field id="7df537009941493789a32bcae3499909" label="Degree Name">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="35696972e69541dd86a80521d3737b26" label="Specialization">
+        <value type="Bilingual">Culinary Science</value>
+        <bilingual>
+          <english>Culinary Science</english>
+        </bilingual>
+      </field>
+      <field id="ca55badff5c1483cbb1c69495a22d0af" label="Thesis Title">
+        <value type="String"/>
+      </field>
+      <field id="6e225f28f003427aa79aa68ff0aa3865" label="Organization">
+        <refTable refValueId="00000000000000000000051772590249" label="Organization">
+          <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Massachusetts" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Walden University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="020ec1f40f3d4065bf5424f77209b8e4" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="f1a127d96eb64b1e8776023106ac4a00" label="Other Organization Type"/>
+      <field id="fc5c85c9557441399dba19033697d56d" label="Other Organization Location"/>
+      <field id="c42a1deb6fe046dfa5502169032760de" label="Degree Status">
+        <lov id="00000000000000000000000000000068">Completed</lov>
+      </field>
+      <field id="337ee6b2606c4c899f0e0c4ec3bd6ec2" label="Degree Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="4b818aef68a84743b19149d376032afb" label="Degree Received Date">
+        <value format="yyyy/MM" type="YearMonth">1987/5</value>
+      </field>
+      <field id="91b70ad64b6843fdaae1e94282bc77f0" label="Degree Expected Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="b04a491dc6ea4fc99e2453dbfb834965" label="Transferred to PhD without completing Masters?"/>
+    </section>
+    <section id="aee5a225a504442fb83f716235cfb587" label="Degrees" recordId="c4f3f754cda64bc28ac2e554c152359f">
+      <field id="a83a0af883924c57bb66107cc32b6d5e" label="Degree Type">
+        <lov id="00000000000000000000000000000071">Bachelor's</lov>
+      </field>
+      <field id="7df537009941493789a32bcae3499909" label="Degree Name">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="35696972e69541dd86a80521d3737b26" label="Specialization">
+        <value type="Bilingual">Culinary Science</value>
+        <bilingual>
+          <english>Culinary Science</english>
+        </bilingual>
+      </field>
+      <field id="ca55badff5c1483cbb1c69495a22d0af" label="Thesis Title">
+        <value type="String"/>
+      </field>
+      <field id="6e225f28f003427aa79aa68ff0aa3865" label="Organization">
+        <refTable refValueId="00000000000000000000027929751823" label="Organization">
+          <linkedWith label="Country" value="Lebanon, Republic of" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Not Required" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Lebanon University of Science &amp; Technology" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="020ec1f40f3d4065bf5424f77209b8e4" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="f1a127d96eb64b1e8776023106ac4a00" label="Other Organization Type"/>
+      <field id="fc5c85c9557441399dba19033697d56d" label="Other Organization Location"/>
+      <field id="c42a1deb6fe046dfa5502169032760de" label="Degree Status">
+        <lov id="00000000000000000000000000000068">Completed</lov>
+      </field>
+      <field id="337ee6b2606c4c899f0e0c4ec3bd6ec2" label="Degree Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="4b818aef68a84743b19149d376032afb" label="Degree Received Date">
+        <value format="yyyy/MM" type="YearMonth">1984/5</value>
+      </field>
+      <field id="91b70ad64b6843fdaae1e94282bc77f0" label="Degree Expected Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="b04a491dc6ea4fc99e2453dbfb834965" label="Transferred to PhD without completing Masters?"/>
+    </section>
+  </section>
+  <section id="47c6295f7c2743c08d2db3fa6f6f0f52" label="Recognitions" recordId="f15b05fbaad94c28b11c7702d3b321c6">
+    <field id="050ab4129d8f4cfc9e1366b92e5f22af" label="Recognition Type">
+      <lov id="00000000000000000000000100003401">Prize / Award</lov>
+    </field>
+    <field id="949d898a29c7416a811b1995f9e50590" label="Recognition Name">
+      <value type="String">University Faculty Award</value>
+    </field>
+    <field id="30f1ffd6b56f42359ecf442919463ed2" label="Organization">
+      <refTable refValueId="ba1c24759af3408aae6542f761070d42" label="Organization">
+        <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+        <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+        <linkedWith label="Organization Type" value="Federal Government" refOrLovId="00000000000000000000000000030000"/>
+        <linkedWith label="Organization" value="Nutritious Sausage, Endive, and Radish Council of Canada (NSERC)" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+      </refTable>
+    </field>
+    <field id="067fe957590c469e85aa7e473ed8c03d" label="Other Organization">
+      <value type="String"/>
+    </field>
+    <field id="43517b4fd422423382baab1e916e7f63" label="Other Organization Type"/>
+    <field id="da8ed1eee9bf4227b8f3045c1c8d9efe" label="Other Organization Location"/>
+    <field id="acaa1fcd28204023958eb4b67e8ccaef" label="Effective Date">
+      <value format="yyyy/MM" type="YearMonth">1995/7</value>
+    </field>
+    <field id="cc9dd31221c942deb720bc40f89bcb3d" label="End Date">
+      <value format="yyyy/MM" type="YearMonth">2001/9</value>
+    </field>
+    <field id="c9bbee3c0fd64230b59afc3bcc276079" label="Amount">
+      <value type="Number">123456</value>
+    </field>
+    <field id="b855d3bfed254655997ad5a17ebc34fc" label="Description">
+      <value type="Bilingual">NSERC: "The goal of the University Faculty Awards program is to enhance the recruitment, retention and early career progression of women and Aboriginal people in tenure-track faculty positions in the natural sciences and engineering, in Canadian universities, by providing opportunities for them to establish a strong research record."</value>
+      <bilingual>
+        <english>NSERC: "The goal of the University Faculty Awards program is to enhance the recruitment, retention and early career progression of women and Aboriginal people in tenure-track faculty positions in the natural sciences and engineering, in Canadian universities, by providing opportunities for them to establish a strong research record."</english>
+      </bilingual>
+    </field>
+    <field id="b79c15516c144b4092e3147e56d247b3" label="Currency"/>
+  </section>
+  <section id="5c6aca5ad9da4e3d90e5a4d4d876d2b8" label="User Profile" recordId="6850a650c0ca4d8f9064fd4a71a12f23">
+    <field id="96a283c7cf354879867a0787e0c1ead1" label="Researcher Status"/>
+    <field id="77d7b0b6cf934ced8978232a31822c09" label="Research Career Start Date">
+      <value format="yyyy-MM-dd" type="Date"/>
+    </field>
+    <field id="ac002a7a135b47e0b9f8d6f5dab2cc29" label="Engaged in Clinical Research?"/>
+    <field id="8e84fb494085423d9f7a28067db57207" label="Key Theory / Methodology">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="16d79ecde08240c4a275ae8628f153d2" label="Research Interests">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="cd49146744cd4a648435cfc645b7df41" label="Research Experience Summary">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="6062975bede54fd59fcfe0785e7451a3" label="Fields of Application" recordId="b088a00c262c46fa9d22a7be93a58940">
+      <field id="9ec242f5d282450ca1dd8ff883b9f6a9" label="Order">
+        <value type="Number">1</value>
+      </field>
+      <field id="595ef6787363411fa14f245f161a132e" label="Field of Application">
+        <refTable refValueId="00000000000000000000004271818140" label="Field of Application">
+          <linkedWith label="Field of Application" value="Science and Technologies" refOrLovId="00000000000000000000000100003900"/>
+          <linkedWith label="Subfield" value="Foundations and Knowledge Acquisition" refOrLovId="bb37c5edd6464aa3a99abcaaf1251bed"/>
+        </refTable>
+      </field>
+    </section>
+    <section id="f911b371f6134dfc99600e15675d5885" label="Areas of Research" recordId="4006d3befd4d4801b303bf3d5995a544">
+      <field id="f7b450cd341c49d786d13246b8a6c616" label="Order">
+        <value type="Number">1</value>
+      </field>
+      <field id="bd32ebd68bc346b1a20de641e26be765" label="Area of Research">
+        <refTable refValueId="00000000000000000000065138728500" label="Area of Research">
+          <linkedWith label="Sector of Research" value="Natural Sciences and Engineering" refOrLovId="00000000000000000000000100003800"/>
+          <linkedWith label="Field" value="Advanced Structures" refOrLovId="28b7043d4ec74915a90ee44bbf5ec71f"/>
+          <linkedWith label="Subfield" value="Culinary Science" refOrLovId="1bb709ee05854387a897b8a17cfd3f0e"/>
+          <linkedWith label="Area" value="Cooking" refOrLovId="75f906df893642f895b9203370e0b9a9"/>
+        </refTable>
+      </field>
+    </section>
+    <section id="f911b371f6134dfc99600e15675d5885" label="Areas of Research" recordId="16e4f7a917d142b08060d54c2a319ca9">
+      <field id="f7b450cd341c49d786d13246b8a6c616" label="Order">
+        <value type="Number">2</value>
+      </field>
+      <field id="bd32ebd68bc346b1a20de641e26be765" label="Area of Research">
+        <refTable refValueId="00000000000000000000063454777880" label="Area of Research">
+          <linkedWith label="Sector of Research" value="Natural Sciences and Engineering" refOrLovId="00000000000000000000000100003800"/>
+          <linkedWith label="Field" value="Advanced Structures" refOrLovId="28b7043d4ec74915a90ee44bbf5ec71f"/>
+          <linkedWith label="Subfield" value="Culinary Science" refOrLovId="1bb709ee05854387a897b8a17cfd3f0e"/>
+          <linkedWith label="Area" value="Food Preparation" refOrLovId="75f906df893642f895b9203370e0b9a9"/>
+        </refTable>
+      </field>
+    </section>
+    <section id="53099556bdac4ac8813be6fd62a356b1" label="Research Specialization Keywords" recordId="555253c8197e4e828d4393fb522ff1e5">
+      <field id="1e0ff4e40d544b4b87a17fed4c4c22d3" label="Order">
+        <value type="Number"/>
+      </field>
+      <field id="6351fbc0f45f4266b29f292fd521c67a" label="Research Specialization Keywords">
+        <value type="Bilingual">Advanced Cooking</value>
+        <bilingual>
+          <english>Advanced Cooking</english>
+        </bilingual>
+      </field>
+    </section>
+    <section id="ffd3d352a4234f5e9b57db596c0b1d4e" label="Research Disciplines" recordId="f4bd731e6655481a87d827081d824008">
+      <field id="5fec8904baea45608172b57cab09ddef" label="Order">
+        <value type="Number">1</value>
+      </field>
+      <field id="c7f852f101e64d9cbd595a7058975c73" label="Research Discipline">
+        <refTable refValueId="00000000000000000000081666160800" label="Research Discipline">
+          <linkedWith label="Sector of Discipline" value="Natural Sciences and Engineering" refOrLovId="00000000000000000000000100003700"/>
+          <linkedWith label="Field" value="Food Sciences" refOrLovId="1add935c1fbc44ec96e9edfe94ad6863"/>
+          <linkedWith label="Discipline" value="Culinary Science" refOrLovId="4ac3aff1a8314560b7b7e048099e7996"/>
+        </refTable>
+      </field>
+    </section>
+  </section>
+  <section id="94b1e26073ae476da13ede5baf1f1cc0" label="Employment">
+    <section id="b857f61b33484cb093068bd2da764f99" label="Academic Work Experience" recordId="54134ab268e24930abae708aadb55e56">
+      <field id="9510a03a308f43ceb8cd046aeffa9499" label="Position Type"/>
+      <field id="886807b87b624978bc8ca9045ff56e47" label="Position Title">
+        <value type="String">Associate Professor</value>
+      </field>
+      <field id="ef7bd6fa8dd040449fa181f0ca4530e4" label="Position Status">
+        <lov id="00000000000000000000000000000430">Full-time</lov>
+      </field>
+      <field id="500e1360abd14972bc1ef844a8b98087" label="Academic Rank">
+        <lov id="00000000000000000000000000000003">Associate Professor</lov>
+      </field>
+      <field id="c7e85d10d10249c68b28c71fc80ec570" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1998/7</value>
+      </field>
+      <field id="b4681f52d85440829faa3160ba3bb31f" label="End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="07b27665db314c2da1fe3ea060e95264" label="Work Description">
+        <value type="Bilingual">Research, teaching, graduate supervision, committee work</value>
+        <bilingual>
+          <english>Research, teaching, graduate supervision, committee work</english>
+        </bilingual>
+      </field>
+      <field id="5dd34f14c1ea47c09e8ddcd202653814" label="Organization">
+        <refTable refValueId="00000000000000000000006544937977" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="69b0f4fab5e64d7da044e0f8cbd70e52" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="e2965cf383a6480487995eca532a41e9" label="Other Organization Type"/>
+      <field id="4fe6f10e7dfd4da48eaa9833cc9bfa9f" label="Other Organization Location"/>
+      <field id="cd6e5e97994e42f893bd5c9e7212c94b" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="58cf7001d283421b91f5da21f0ef2188" label="Faculty / School / Campus">
+        <value type="String">Science</value>
+      </field>
+      <field id="b0eca39ad77346648180dec948d13432" label="Tenure Status">
+        <lov id="00000000000000000000000000000410">Tenure</lov>
+      </field>
+      <field id="0f9de0cffcaf4270a6eb69c62e6a3b70" label="Tenure Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="ac542fa52c3c4c6b927044fabb3eff9c" label="Tenure End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+    <section id="b857f61b33484cb093068bd2da764f99" label="Academic Work Experience" recordId="7136b0bdbdf74fe1b09ab4d9be4f3e46">
+      <field id="9510a03a308f43ceb8cd046aeffa9499" label="Position Type"/>
+      <field id="886807b87b624978bc8ca9045ff56e47" label="Position Title">
+        <value type="String">Assistant Professor</value>
+      </field>
+      <field id="ef7bd6fa8dd040449fa181f0ca4530e4" label="Position Status">
+        <lov id="00000000000000000000000000000430">Full-time</lov>
+      </field>
+      <field id="500e1360abd14972bc1ef844a8b98087" label="Academic Rank">
+        <lov id="00000000000000000000000000000002">Assistant Professor</lov>
+      </field>
+      <field id="c7e85d10d10249c68b28c71fc80ec570" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1995/7</value>
+      </field>
+      <field id="b4681f52d85440829faa3160ba3bb31f" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">1998/6</value>
+      </field>
+      <field id="07b27665db314c2da1fe3ea060e95264" label="Work Description">
+        <value type="Bilingual">Research, teaching, graduate student supervision and committee work</value>
+        <bilingual>
+          <english>Research, teaching, graduate student supervision and committee work</english>
+        </bilingual>
+      </field>
+      <field id="5dd34f14c1ea47c09e8ddcd202653814" label="Organization">
+        <refTable refValueId="00000000000000000000006544937977" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="69b0f4fab5e64d7da044e0f8cbd70e52" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="e2965cf383a6480487995eca532a41e9" label="Other Organization Type"/>
+      <field id="4fe6f10e7dfd4da48eaa9833cc9bfa9f" label="Other Organization Location"/>
+      <field id="cd6e5e97994e42f893bd5c9e7212c94b" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="58cf7001d283421b91f5da21f0ef2188" label="Faculty / School / Campus">
+        <value type="String">Science</value>
+      </field>
+      <field id="b0eca39ad77346648180dec948d13432" label="Tenure Status">
+        <lov id="00000000000000000000000000000411">Tenure Track</lov>
+      </field>
+      <field id="0f9de0cffcaf4270a6eb69c62e6a3b70" label="Tenure Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="ac542fa52c3c4c6b927044fabb3eff9c" label="Tenure End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+    <section id="b857f61b33484cb093068bd2da764f99" label="Academic Work Experience" recordId="353a20223ec3423c996eedf7a401a508">
+      <field id="9510a03a308f43ceb8cd046aeffa9499" label="Position Type"/>
+      <field id="886807b87b624978bc8ca9045ff56e47" label="Position Title">
+        <value type="String">Assistant Professor</value>
+      </field>
+      <field id="ef7bd6fa8dd040449fa181f0ca4530e4" label="Position Status">
+        <lov id="00000000000000000000000000000430">Full-time</lov>
+      </field>
+      <field id="500e1360abd14972bc1ef844a8b98087" label="Academic Rank">
+        <lov id="00000000000000000000000000000002">Assistant Professor</lov>
+      </field>
+      <field id="c7e85d10d10249c68b28c71fc80ec570" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1994/7</value>
+      </field>
+      <field id="b4681f52d85440829faa3160ba3bb31f" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">1995/6</value>
+      </field>
+      <field id="07b27665db314c2da1fe3ea060e95264" label="Work Description">
+        <value type="Bilingual">Teaching and research</value>
+        <bilingual>
+          <english>Teaching and research</english>
+        </bilingual>
+      </field>
+      <field id="5dd34f14c1ea47c09e8ddcd202653814" label="Organization">
+        <refTable refValueId="00000000000000000000009472221795" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="University of Agriculture" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="69b0f4fab5e64d7da044e0f8cbd70e52" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="e2965cf383a6480487995eca532a41e9" label="Other Organization Type"/>
+      <field id="4fe6f10e7dfd4da48eaa9833cc9bfa9f" label="Other Organization Location"/>
+      <field id="cd6e5e97994e42f893bd5c9e7212c94b" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="58cf7001d283421b91f5da21f0ef2188" label="Faculty / School / Campus">
+        <value type="String">Science</value>
+      </field>
+      <field id="b0eca39ad77346648180dec948d13432" label="Tenure Status">
+        <lov id="00000000000000000000000000000412">Non Tenure Track</lov>
+      </field>
+      <field id="0f9de0cffcaf4270a6eb69c62e6a3b70" label="Tenure Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="ac542fa52c3c4c6b927044fabb3eff9c" label="Tenure End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+    <section id="b857f61b33484cb093068bd2da764f99" label="Academic Work Experience" recordId="b048f97335d04b37bc8c9de29c6a171c">
+      <field id="9510a03a308f43ceb8cd046aeffa9499" label="Position Type"/>
+      <field id="886807b87b624978bc8ca9045ff56e47" label="Position Title">
+        <value type="String">Postdoctoral Fellow</value>
+      </field>
+      <field id="ef7bd6fa8dd040449fa181f0ca4530e4" label="Position Status">
+        <lov id="00000000000000000000000000000430">Full-time</lov>
+      </field>
+      <field id="500e1360abd14972bc1ef844a8b98087" label="Academic Rank"/>
+      <field id="c7e85d10d10249c68b28c71fc80ec570" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1992/9</value>
+      </field>
+      <field id="b4681f52d85440829faa3160ba3bb31f" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">1994/6</value>
+      </field>
+      <field id="07b27665db314c2da1fe3ea060e95264" label="Work Description">
+        <value type="Bilingual">Research</value>
+        <bilingual>
+          <english>Research</english>
+        </bilingual>
+      </field>
+      <field id="5dd34f14c1ea47c09e8ddcd202653814" label="Organization">
+        <refTable refValueId="00000000000000000000013025184597" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Quebec" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Culinary University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="69b0f4fab5e64d7da044e0f8cbd70e52" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="e2965cf383a6480487995eca532a41e9" label="Other Organization Type"/>
+      <field id="4fe6f10e7dfd4da48eaa9833cc9bfa9f" label="Other Organization Location"/>
+      <field id="cd6e5e97994e42f893bd5c9e7212c94b" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="58cf7001d283421b91f5da21f0ef2188" label="Faculty / School / Campus">
+        <value type="String"/>
+      </field>
+      <field id="b0eca39ad77346648180dec948d13432" label="Tenure Status">
+        <lov id="00000000000000000000000000000412">Non Tenure Track</lov>
+      </field>
+      <field id="0f9de0cffcaf4270a6eb69c62e6a3b70" label="Tenure Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="ac542fa52c3c4c6b927044fabb3eff9c" label="Tenure End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+    <section id="b857f61b33484cb093068bd2da764f99" label="Academic Work Experience" recordId="1679c9c0166643068a3e3e36c13cb612">
+      <field id="9510a03a308f43ceb8cd046aeffa9499" label="Position Type"/>
+      <field id="886807b87b624978bc8ca9045ff56e47" label="Position Title">
+        <value type="String">Assistant Professor</value>
+      </field>
+      <field id="ef7bd6fa8dd040449fa181f0ca4530e4" label="Position Status">
+        <lov id="00000000000000000000000000000430">Full-time</lov>
+      </field>
+      <field id="500e1360abd14972bc1ef844a8b98087" label="Academic Rank">
+        <lov id="00000000000000000000000000000002">Assistant Professor</lov>
+      </field>
+      <field id="c7e85d10d10249c68b28c71fc80ec570" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1990/9</value>
+      </field>
+      <field id="b4681f52d85440829faa3160ba3bb31f" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">1992/8</value>
+      </field>
+      <field id="07b27665db314c2da1fe3ea060e95264" label="Work Description">
+        <value type="Bilingual">Teaching, research and committee work</value>
+        <bilingual>
+          <english>Teaching, research and committee work</english>
+        </bilingual>
+      </field>
+      <field id="5dd34f14c1ea47c09e8ddcd202653814" label="Organization">
+        <refTable refValueId="00000000000000000000047772713887" label="Organization">
+          <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="New Mexico" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Henry Truman University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="69b0f4fab5e64d7da044e0f8cbd70e52" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="e2965cf383a6480487995eca532a41e9" label="Other Organization Type"/>
+      <field id="4fe6f10e7dfd4da48eaa9833cc9bfa9f" label="Other Organization Location"/>
+      <field id="cd6e5e97994e42f893bd5c9e7212c94b" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="58cf7001d283421b91f5da21f0ef2188" label="Faculty / School / Campus">
+        <value type="String">Science/ Foggy Bottom Campus</value>
+      </field>
+      <field id="b0eca39ad77346648180dec948d13432" label="Tenure Status">
+        <lov id="00000000000000000000000000000412">Non Tenure Track</lov>
+      </field>
+      <field id="0f9de0cffcaf4270a6eb69c62e6a3b70" label="Tenure Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="ac542fa52c3c4c6b927044fabb3eff9c" label="Tenure End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+    <section id="f612675840ef4ae0965c815ac1574623" label="Affiliations" recordId="5d663a141fc643c2a59823d48afd6c3f">
+      <field id="796ed81a4c894d7da2317ee28fd0eed1" label="Position Title">
+        <value type="Bilingual">Research Member</value>
+        <bilingual>
+          <english>Research Member</english>
+        </bilingual>
+      </field>
+      <field id="5fa20174fd394fb5badc36bda226d891" label="Organization"/>
+      <field id="8855219961924a539cede68f7ffd78c2" label="Other Organization">
+        <value type="String">Food Sciences Research Institute</value>
+      </field>
+      <field id="23aaffeeaeb44c4eaafb2610df0504af" label="Other Organization Type">
+        <lov id="00000000000000000000000000000408">Research</lov>
+      </field>
+      <field id="3d5f371d9643405c878e9b40a8031a5c" label="Other Organization Location">
+        <refTable refValueId="00000000000000000000253213331640" label="Country-Subdivision">
+          <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="California" refOrLovId="00000000000000000000000000100000"/>
+        </refTable>
+      </field>
+      <field id="0d00497918e04604b74e961a673a4d4f" label="Department">
+        <value type="String"/>
+      </field>
+      <field id="1e9ae12d59e54b94a8d97463b285a73c" label="Activity Description">
+        <value type="String">Participated in the year-long program "Advanced Cooking"</value>
+      </field>
+      <field id="97cd0667343d465ab587b8da69c98f5e" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">2002/8</value>
+      </field>
+      <field id="62cd3926bb21473e9128254bc1ac2879" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">2002/12</value>
+      </field>
+    </section>
+    <section id="f612675840ef4ae0965c815ac1574623" label="Affiliations" recordId="cdc6aa6c2222483597db645527bb27a8">
+      <field id="796ed81a4c894d7da2317ee28fd0eed1" label="Position Title">
+        <value type="Bilingual">Adjunct Professor</value>
+        <bilingual>
+          <english>Adjunct Professor</english>
+        </bilingual>
+      </field>
+      <field id="5fa20174fd394fb5badc36bda226d891" label="Organization">
+        <refTable refValueId="00000000000000000000009472221795" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="University of Agriculture" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="8855219961924a539cede68f7ffd78c2" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="23aaffeeaeb44c4eaafb2610df0504af" label="Other Organization Type"/>
+      <field id="3d5f371d9643405c878e9b40a8031a5c" label="Other Organization Location"/>
+      <field id="0d00497918e04604b74e961a673a4d4f" label="Department">
+        <value type="String">Culinary Science</value>
+      </field>
+      <field id="1e9ae12d59e54b94a8d97463b285a73c" label="Activity Description">
+        <value type="String"/>
+      </field>
+      <field id="97cd0667343d465ab587b8da69c98f5e" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">1995/7</value>
+      </field>
+      <field id="62cd3926bb21473e9128254bc1ac2879" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">1998/6</value>
+      </field>
+    </section>
+    <section id="4c5d725b1b654966acf50d48934beefc" label="Leaves of Absence and Impact on Research" recordId="5773c08d85d042e084acda69ed77e741">
+      <field id="64cbd0916c0f4b4eb0424115626b2f1a" label="Leave Type">
+        <lov id="00000000000000000000000100001200">Sabbatical</lov>
+      </field>
+      <field id="fc1fb6a84f844798840202fe0d3f3031" label="Start Date">
+        <value format="yyyy-MM-dd" type="Date">2002-07-01</value>
+      </field>
+      <field id="b7ac5b1b1f2743f783559d7fe0b486c6" label="End Date">
+        <value format="yyyy-MM-dd" type="Date">2002-12-31</value>
+      </field>
+      <field id="bd46b97e1de54126ac742bf3ac6d6bf2" label="Organization">
+        <refTable refValueId="00000000000000000000006544937977" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="9a7b900af93e443aba9122bd5233296f" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="162412c2de4d4ef7a03e27176cb86a77" label="Other Organization Type"/>
+      <field id="60f6691d346b4e72924b0452adc342ee" label="Other Organization Location"/>
+      <field id="037a5e8bcbce44d58212d00215596ff9" label="Absence and Impact Description">
+        <value type="Bilingual">I spent Fall 2002 in Berkeley at FSRI. It was a very enriching experience for myself and my students who were able to accompany me. As a result of the program, we have been working on new and diverse projects.</value>
+        <bilingual>
+          <english>I spent Fall 2002 in Berkeley at FSRI. It was a very enriching experience for myself and my students who were able to accompany me. As a result of the program, we have been working on new and diverse projects.</english>
+        </bilingual>
+      </field>
+    </section>
+    <section id="4c5d725b1b654966acf50d48934beefc" label="Leaves of Absence and Impact on Research" recordId="625cbee897bd4996a6ffa330fe84678c">
+      <field id="64cbd0916c0f4b4eb0424115626b2f1a" label="Leave Type">
+        <lov id="00000000000000000000000100001204">Parental</lov>
+      </field>
+      <field id="fc1fb6a84f844798840202fe0d3f3031" label="Start Date">
+        <value format="yyyy-MM-dd" type="Date">1997-05-24</value>
+      </field>
+      <field id="b7ac5b1b1f2743f783559d7fe0b486c6" label="End Date">
+        <value format="yyyy-MM-dd" type="Date">1997-12-24</value>
+      </field>
+      <field id="bd46b97e1de54126ac742bf3ac6d6bf2" label="Organization">
+        <refTable refValueId="00000000000000000000006544937977" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="9a7b900af93e443aba9122bd5233296f" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="162412c2de4d4ef7a03e27176cb86a77" label="Other Organization Type"/>
+      <field id="60f6691d346b4e72924b0452adc342ee" label="Other Organization Location"/>
+      <field id="037a5e8bcbce44d58212d00215596ff9" label="Absence and Impact Description">
+        <value type="Bilingual">This was my first maternity leave. I did not start any new projects during this time.</value>
+        <bilingual>
+          <english>This was my first maternity leave. I did not start any new projects during this time.</english>
+        </bilingual>
+      </field>
+    </section>
+  </section>
+  <section id="aaedc5454412483d9131f7619d10279e" label="Research Funding History" recordId="5151432fd8f54443a2a4f64a4942ebe9">
+    <field id="931b92a5ffed4e5aa9c7b3a0afd5f8ba" label="Funding Type">
+      <lov id="00000000000000000000000100000900">Grant</lov>
+    </field>
+    <field id="9c1db4674334436ca891b7b8a9e114bd" label="Funding Start Date">
+      <value format="yyyy/MM" type="YearMonth">1995/7</value>
+    </field>
+    <field id="b63179ab0f0e4c9eaa7e9a8130d60ee3" label="Funding End Date">
+      <value format="yyyy/MM" type="YearMonth"/>
+    </field>
+    <field id="735545eb499e4cc6a949b4b375a804e8" label="Funding Title">
+      <value type="String">Startup Funds</value>
+    </field>
+    <field id="c8e3451d1e3a405bb1e8aa0ebeb66c8d" label="Grant Type">
+      <lov id="00000000000000000000000100001001">Operating</lov>
+    </field>
+    <field id="0674312de78f4647aba3bf202a41d58e" label="Project Description">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="f7bfa6e647fd48cf8d404263df5843b1" label="Clinical Research Project?"/>
+    <field id="0991ead151e3445ca7537aa15acbec57" label="Funding Status">
+      <lov id="00000000000000000000000100000800">Awarded</lov>
+    </field>
+    <field id="7496de092dc84038a1881e8f9d77e713" label="Funding Role"/>
+    <field id="32ce1c0c194447c19c6847b1915d35f1" label="Research Uptake">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="376b8991609f46059a3d66028f005360" label="Funding Sources" recordId="a97f9725c8994a3a8ed127cbe38b0968">
+      <field id="67e083b070954e91bcbb1cc70131145a" label="Funding Organization">
+        <lov id="00000000000000000000000014005602">Bay Leaf University</lov>
+      </field>
+      <field id="1bdead14642545f3971a59997d82da67" label="Other Funding Organization">
+        <value type="String"/>
+      </field>
+      <field id="97231512141a452a82151cc162e9a59c" label="Program Name">
+        <value type="String"/>
+      </field>
+      <field id="3fb9015d879f435d937ae9aa7ccd2973" label="Funding Reference Number">
+        <value type="String"/>
+      </field>
+      <field id="dfe6a0b34347486aaa677f07306a141e" label="Total Funding">
+        <value type="Number">54321</value>
+      </field>
+      <field id="4775aa8f2a3f4f5083dd1c816462f260" label="Currency of Total Funding"/>
+      <field id="882a94c7548744ca992e2647346d2e14" label="Portion of Funding Received">
+        <value type="Number"/>
+      </field>
+      <field id="b8ea355ed5ad4970bf1367fe0281b724" label="Currency of Portion of Funding Received">
+        <lov id="00000000000000000000000000031026">Canadian dollar</lov>
+      </field>
+      <field id="a445f692a0d54760bcf2ed9c8a829eff" label="Funding Renewable?"/>
+      <field id="00efdc7e790a48ac8675696c66afc3ad" label="Funding Competitive?"/>
+      <field id="d62313c1cdb9419caf79014f07e1cfe0" label="Funding Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="efc68e7d74f849eebb59f9a3bb85e5db" label="Funding End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+  </section>
+  <section id="aaedc5454412483d9131f7619d10279e" label="Research Funding History" recordId="57f3a1cac7974114922affbe8f1c5ff0">
+    <field id="931b92a5ffed4e5aa9c7b3a0afd5f8ba" label="Funding Type">
+      <lov id="00000000000000000000000100000900">Grant</lov>
+    </field>
+    <field id="9c1db4674334436ca891b7b8a9e114bd" label="Funding Start Date">
+      <value format="yyyy/MM" type="YearMonth">2004/4</value>
+    </field>
+    <field id="b63179ab0f0e4c9eaa7e9a8130d60ee3" label="Funding End Date">
+      <value format="yyyy/MM" type="YearMonth">2009/3</value>
+    </field>
+    <field id="735545eb499e4cc6a949b4b375a804e8" label="Funding Title">
+      <value type="String">NSERC Discovery Grant</value>
+    </field>
+    <field id="c8e3451d1e3a405bb1e8aa0ebeb66c8d" label="Grant Type">
+      <lov id="00000000000000000000000100001001">Operating</lov>
+    </field>
+    <field id="0674312de78f4647aba3bf202a41d58e" label="Project Description">
+      <value type="Bilingual">Combinatorial investigations in commutative algebra</value>
+      <bilingual>
+        <english>Combinatorial investigations in commutative algebra</english>
+      </bilingual>
+    </field>
+    <field id="f7bfa6e647fd48cf8d404263df5843b1" label="Clinical Research Project?"/>
+    <field id="0991ead151e3445ca7537aa15acbec57" label="Funding Status">
+      <lov id="00000000000000000000000100000800">Awarded</lov>
+    </field>
+    <field id="7496de092dc84038a1881e8f9d77e713" label="Funding Role">
+      <lov id="00000000000000000000000100002807">Principal Applicant</lov>
+    </field>
+    <field id="32ce1c0c194447c19c6847b1915d35f1" label="Research Uptake">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="8e2fb2810141436189c030b18d35085c" label="Funding by Year" recordId="cda04f562a1d4fcfa5561617613f1b98">
+      <field id="c8dec2620d6d454d9cbd4e15018864af" label="Start Date">
+        <value format="yyyy/MM" type="YearMonth">2004/4</value>
+      </field>
+      <field id="b8a26c08286e4f919921979bbfc47d5d" label="End Date">
+        <value format="yyyy/MM" type="YearMonth">2008/4</value>
+      </field>
+      <field id="664f2b989b4b4aafa28be877d6e83123" label="Total Funding">
+        <value type="Number">90000</value>
+      </field>
+      <field id="c5472a9c4e4140d38cbda92406c7952b" label="Currency of Total Funding">
+        <lov id="00000000000000000000000000031026">Canadian dollar</lov>
+      </field>
+      <field id="8c9aa0a42b9b450c8e0386065609eb79" label="Portion of Funding Received">
+        <value type="Number">18000</value>
+      </field>
+      <field id="06703047af894f44acb81777a9bb5a42" label="Currency of Portion of Funding Received">
+        <lov id="00000000000000000000000000031026">Canadian dollar</lov>
+      </field>
+      <field id="3b3d4329241c4dc6bf1e6947be5857c9" label="Time Commitment">
+        <value type="Number"/>
+      </field>
+    </section>
+  </section>
+  <section id="aaedc5454412483d9131f7619d10279e" label="Research Funding History" recordId="455b0add5e9447928640132139380352">
+    <field id="931b92a5ffed4e5aa9c7b3a0afd5f8ba" label="Funding Type">
+      <lov id="00000000000000000000000100000900">Grant</lov>
+    </field>
+    <field id="9c1db4674334436ca891b7b8a9e114bd" label="Funding Start Date">
+      <value format="yyyy/MM" type="YearMonth">2003/4</value>
+    </field>
+    <field id="b63179ab0f0e4c9eaa7e9a8130d60ee3" label="Funding End Date">
+      <value format="yyyy/MM" type="YearMonth">2004/3</value>
+    </field>
+    <field id="735545eb499e4cc6a949b4b375a804e8" label="Funding Title">
+      <value type="String">NSERC Reasearch Tools and Instruments Grant</value>
+    </field>
+    <field id="c8e3451d1e3a405bb1e8aa0ebeb66c8d" label="Grant Type"/>
+    <field id="0674312de78f4647aba3bf202a41d58e" label="Project Description">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="f7bfa6e647fd48cf8d404263df5843b1" label="Clinical Research Project?"/>
+    <field id="0991ead151e3445ca7537aa15acbec57" label="Funding Status">
+      <lov id="00000000000000000000000100000802">Completed</lov>
+    </field>
+    <field id="7496de092dc84038a1881e8f9d77e713" label="Funding Role">
+      <lov id="00000000000000000000000100002802">Co-applicant</lov>
+    </field>
+    <field id="32ce1c0c194447c19c6847b1915d35f1" label="Research Uptake">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="376b8991609f46059a3d66028f005360" label="Funding Sources" recordId="2095345c5cf341d78b1238fe043a5ed2">
+      <field id="67e083b070954e91bcbb1cc70131145a" label="Funding Organization">
+        <lov id="00000000000000000000000014012321">Nutritious Sausage, Endive, and Radish Council of Canada (NSERC)</lov>
+      </field>
+      <field id="1bdead14642545f3971a59997d82da67" label="Other Funding Organization">
+        <value type="String"/>
+      </field>
+      <field id="97231512141a452a82151cc162e9a59c" label="Program Name">
+        <value type="String">Research Tools and Instruments - Category 1</value>
+      </field>
+      <field id="3fb9015d879f435d937ae9aa7ccd2973" label="Funding Reference Number">
+        <value type="String"/>
+      </field>
+      <field id="dfe6a0b34347486aaa677f07306a141e" label="Total Funding">
+        <value type="Number">12345</value>
+      </field>
+      <field id="4775aa8f2a3f4f5083dd1c816462f260" label="Currency of Total Funding"/>
+      <field id="882a94c7548744ca992e2647346d2e14" label="Portion of Funding Received">
+        <value type="Number"/>
+      </field>
+      <field id="b8ea355ed5ad4970bf1367fe0281b724" label="Currency of Portion of Funding Received"/>
+      <field id="a445f692a0d54760bcf2ed9c8a829eff" label="Funding Renewable?"/>
+      <field id="00efdc7e790a48ac8675696c66afc3ad" label="Funding Competitive?">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="d62313c1cdb9419caf79014f07e1cfe0" label="Funding Start Date">
+        <value format="yyyy/MM" type="YearMonth">2003/4</value>
+      </field>
+      <field id="efc68e7d74f849eebb59f9a3bb85e5db" label="Funding End Date">
+        <value format="yyyy/MM" type="YearMonth">2004/3</value>
+      </field>
+    </section>
+    <section id="c7c473d1237b432fb7f2abd831130fb7" label="Other Investigators" recordId="8ece3bcace4d44e9ab0ce02c8819af99">
+      <field id="ddd551dfb26344fbb17f07afcffc94ed" label="Investigator Name">
+        <value type="String">David  Smith</value>
+      </field>
+      <field id="13806a6772d248158619261afaab2fe0" label="Role">
+        <lov id="00000000000000000000000100002807">Principal Applicant</lov>
+      </field>
+    </section>
+  </section>
+  <section id="aaedc5454412483d9131f7619d10279e" label="Research Funding History" recordId="9c8aef0bf9f84718baf41034797a3eee">
+    <field id="931b92a5ffed4e5aa9c7b3a0afd5f8ba" label="Funding Type">
+      <lov id="00000000000000000000000100000900">Grant</lov>
+    </field>
+    <field id="9c1db4674334436ca891b7b8a9e114bd" label="Funding Start Date">
+      <value format="yyyy/MM" type="YearMonth">1999/4</value>
+    </field>
+    <field id="b63179ab0f0e4c9eaa7e9a8130d60ee3" label="Funding End Date">
+      <value format="yyyy/MM" type="YearMonth">2004/3</value>
+    </field>
+    <field id="735545eb499e4cc6a949b4b375a804e8" label="Funding Title">
+      <value type="String">NSERC Discovery Grant</value>
+    </field>
+    <field id="c8e3451d1e3a405bb1e8aa0ebeb66c8d" label="Grant Type"/>
+    <field id="0674312de78f4647aba3bf202a41d58e" label="Project Description">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="f7bfa6e647fd48cf8d404263df5843b1" label="Clinical Research Project?"/>
+    <field id="0991ead151e3445ca7537aa15acbec57" label="Funding Status">
+      <lov id="00000000000000000000000100000802">Completed</lov>
+    </field>
+    <field id="7496de092dc84038a1881e8f9d77e713" label="Funding Role">
+      <lov id="00000000000000000000000100002800">Principal Investigator</lov>
+    </field>
+    <field id="32ce1c0c194447c19c6847b1915d35f1" label="Research Uptake">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="376b8991609f46059a3d66028f005360" label="Funding Sources" recordId="66f93534c0764365955346dabc44b0b4">
+      <field id="67e083b070954e91bcbb1cc70131145a" label="Funding Organization">
+        <lov id="00000000000000000000000014012321">Nutritious Sausage, Endive, and Radish Council of Canada (NSERC)</lov>
+      </field>
+      <field id="1bdead14642545f3971a59997d82da67" label="Other Funding Organization">
+        <value type="String"/>
+      </field>
+      <field id="97231512141a452a82151cc162e9a59c" label="Program Name">
+        <value type="String">Discovery Grant</value>
+      </field>
+      <field id="3fb9015d879f435d937ae9aa7ccd2973" label="Funding Reference Number">
+        <value type="String"/>
+      </field>
+      <field id="dfe6a0b34347486aaa677f07306a141e" label="Total Funding">
+        <value type="Number">34567</value>
+      </field>
+      <field id="4775aa8f2a3f4f5083dd1c816462f260" label="Currency of Total Funding"/>
+      <field id="882a94c7548744ca992e2647346d2e14" label="Portion of Funding Received">
+        <value type="Number"/>
+      </field>
+      <field id="b8ea355ed5ad4970bf1367fe0281b724" label="Currency of Portion of Funding Received"/>
+      <field id="a445f692a0d54760bcf2ed9c8a829eff" label="Funding Renewable?"/>
+      <field id="00efdc7e790a48ac8675696c66afc3ad" label="Funding Competitive?"/>
+      <field id="d62313c1cdb9419caf79014f07e1cfe0" label="Funding Start Date">
+        <value format="yyyy/MM" type="YearMonth">1999/4</value>
+      </field>
+      <field id="efc68e7d74f849eebb59f9a3bb85e5db" label="Funding End Date">
+        <value format="yyyy/MM" type="YearMonth">2004/3</value>
+      </field>
+    </section>
+  </section>
+  <section id="aaedc5454412483d9131f7619d10279e" label="Research Funding History" recordId="4ef904620adf416ca675409d2471ab7b">
+    <field id="931b92a5ffed4e5aa9c7b3a0afd5f8ba" label="Funding Type">
+      <lov id="00000000000000000000000100000900">Grant</lov>
+    </field>
+    <field id="9c1db4674334436ca891b7b8a9e114bd" label="Funding Start Date">
+      <value format="yyyy/MM" type="YearMonth">1994/7</value>
+    </field>
+    <field id="b63179ab0f0e4c9eaa7e9a8130d60ee3" label="Funding End Date">
+      <value format="yyyy/MM" type="YearMonth">1996/7</value>
+    </field>
+    <field id="735545eb499e4cc6a949b4b375a804e8" label="Funding Title">
+      <value type="String">Startup Funds</value>
+    </field>
+    <field id="c8e3451d1e3a405bb1e8aa0ebeb66c8d" label="Grant Type">
+      <lov id="00000000000000000000000100001001">Operating</lov>
+    </field>
+    <field id="0674312de78f4647aba3bf202a41d58e" label="Project Description">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <field id="f7bfa6e647fd48cf8d404263df5843b1" label="Clinical Research Project?"/>
+    <field id="0991ead151e3445ca7537aa15acbec57" label="Funding Status"/>
+    <field id="7496de092dc84038a1881e8f9d77e713" label="Funding Role"/>
+    <field id="32ce1c0c194447c19c6847b1915d35f1" label="Research Uptake">
+      <value type="Bilingual"/>
+      <bilingual/>
+    </field>
+    <section id="376b8991609f46059a3d66028f005360" label="Funding Sources" recordId="905e72f48399401e8157436187ea4f61">
+      <field id="67e083b070954e91bcbb1cc70131145a" label="Funding Organization">
+        <lov id="00000000000000000000000014017345">University of Agriculture</lov>
+      </field>
+      <field id="1bdead14642545f3971a59997d82da67" label="Other Funding Organization">
+        <value type="String"/>
+      </field>
+      <field id="97231512141a452a82151cc162e9a59c" label="Program Name">
+        <value type="String"/>
+      </field>
+      <field id="3fb9015d879f435d937ae9aa7ccd2973" label="Funding Reference Number">
+        <value type="String"/>
+      </field>
+      <field id="dfe6a0b34347486aaa677f07306a141e" label="Total Funding">
+        <value type="Number">20000</value>
+      </field>
+      <field id="4775aa8f2a3f4f5083dd1c816462f260" label="Currency of Total Funding"/>
+      <field id="882a94c7548744ca992e2647346d2e14" label="Portion of Funding Received">
+        <value type="Number"/>
+      </field>
+      <field id="b8ea355ed5ad4970bf1367fe0281b724" label="Currency of Portion of Funding Received">
+        <lov id="00000000000000000000000000031026">Canadian dollar</lov>
+      </field>
+      <field id="a445f692a0d54760bcf2ed9c8a829eff" label="Funding Renewable?"/>
+      <field id="00efdc7e790a48ac8675696c66afc3ad" label="Funding Competitive?"/>
+      <field id="d62313c1cdb9419caf79014f07e1cfe0" label="Funding Start Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+      <field id="efc68e7d74f849eebb59f9a3bb85e5db" label="Funding End Date">
+        <value format="yyyy/MM" type="YearMonth"/>
+      </field>
+    </section>
+  </section>
+  <section id="95c29504d0aa4b51b84659cafaf2b38d" label="Activities">
+    <section id="90cc172e54904b45948d17cba24d3f25" label="Supervisory Activities">
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="68391a3974ec405d8d95742c44c559e7">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2003/9</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2005/5</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Michael Winter</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000072">Master's Thesis</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000070">In Progress</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth">2005/5</value>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">The Perfect Casserole</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="b77f3729fd524357b362db61db052a5c">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002901">Co-Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2003/9</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2007/5</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Mary Jones</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000070">In Progress</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Advanced Cooking of Delicious Foods</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="ed9a2b7575464954b45476cfe5c0f9c2">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002901">Co-Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2002/9</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2003/8</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Mary Jones</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000072">Master's Thesis</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000068">Completed</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Basic food preparation</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String">Doctoral Student at Bay Leaf</value>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="6af73cb6e4cc4f8a8bd7613a8e7fa1a7">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2002/7</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2005/5</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Elisabeth Young</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000070">In Progress</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth">2005/5</value>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Modern appetizers</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="3e21b4cd634f4a4ca0737f3d744f53ba">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2002/1</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2006/5</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Erica  Baker</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000070">In Progress</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth">2006/5</value>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Past and Present of Baking</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="d6bbb9b199fa4a3da2a039d776623ff1">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">2000/9</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2004/5</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">John Welsh</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000070">In Progress</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth">2004/5</value>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Nutrition and Taste in the 21st Century</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="9a77b3ec0c884277b1bdd33f3a8c5042">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">1998/9</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2003/10</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Claire Connor</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000068">Completed</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">The Chemistry of Baked Foods</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String">Maternity Leave</value>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="bfbfaefc0df44e62abeace28b88843f7">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">1997/1</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">2001/7</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Arthur Hurston</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000068">Completed</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Baking in the 19th century</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String">PDF at King's University</value>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="6fcc3b9e2ebd435aa9c77525e37e2ad2">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">1995/7</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">1997/6</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Kia Dalili</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status">
+          <lov id="00000000000000000000000000000038">Work Permit</lov>
+        </field>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000074">Post-doctorate</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status"/>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">The Reconstruction Conjecture on edge ideals</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual">Exploration of how the long-open reconstruction conjecture in graph theory can be interpreted in algebra. More specifically, what algebraic invariants of the edge ideal of a graph are reconstructible?</value>
+          <bilingual>
+            <english>Exploration of how the long-open reconstruction conjecture in graph theory can be interpreted in algebra. More specifically, what algebraic invariants of the edge ideal of a graph are reconstructible?</english>
+          </bilingual>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b36fa1eef2549f6ab3a3df7c1c81e0b" label="Student/Postdoctoral Supervision" recordId="b8db59a4b27b46d581f9bed747aaeba2">
+        <field id="78a3e68f1ab74f31b9284c2acdb70739" label="Supervision Role">
+          <lov id="00000000000000000000000100002900">Principal Supervisor</lov>
+        </field>
+        <field id="19964df0a8524f2bb44d5eb53729f9cc" label="Supervision Start Date">
+          <value format="yyyy/MM" type="YearMonth">1995/1</value>
+        </field>
+        <field id="bd3619f7970441dc83ada1d2fdbf0780" label="Supervision End Date">
+          <value format="yyyy/MM" type="YearMonth">1996/12</value>
+        </field>
+        <field id="3c504aafda28418ea439d8f92c28aef0" label="Student Name">
+          <value type="String">Arthur Hurston</value>
+        </field>
+        <field id="e36ccf9a00a241dc942e608df32c8c84" label="Student Institution">
+          <value type="String">Bay Leaf University</value>
+        </field>
+        <field id="bb322e0195b540779bf4bdb4f1a04210" label="Student Canadian Residency Status"/>
+        <field id="5b8638e8646448dcb8edef2c21e01c87" label="Study / Postdoctoral Level">
+          <lov id="00000000000000000000000000000072">Master's Thesis</lov>
+        </field>
+        <field id="e5d331dca0fc4000992e43b695b2db21" label="Student Degree Status">
+          <lov id="00000000000000000000000000000068">Completed</lov>
+        </field>
+        <field id="3cf3d0de12f44222b941fdbf57ad51a6" label="Student Degree Start Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="8284dbdd03aa4277b7fca7662bd1758c" label="Student Degree Received Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="ab1293e2fee8472481457d4f8493c7f1" label="Student Degree Expected Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="420e5bbd57104c3c9823b5e6850ee6f8" label="Thesis/Project Title">
+          <value type="String">Baking in the 18th century</value>
+        </field>
+        <field id="804797ed2fe54da88f326743e38e270e" label="Project Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="0f2f1601c24144308e0966d75b781db9" label="Present Position">
+          <value type="String">PDF at King's</value>
+        </field>
+      </section>
+    </section>
+    <section id="9fa2e1cd0274429f9fde16616bf3939f" label="Administrative Activities">
+      <section id="7564fc922478441c97c9857809028895" label="Event Administration" recordId="edae34d4231c4da08e9a58ef5ef5f8e2">
+        <field id="31cdeb30328e410cb6b78fa48435be08" label="Role">
+          <value type="String">Co-organizer</value>
+        </field>
+        <field id="7878a016f370434a8364beca1a47ea20" label="Event Type">
+          <lov id="00000000000000000000000100000703">Workshop</lov>
+        </field>
+        <field id="f5389531adca4f54a4e9bee39532323c" label="Event Name">
+          <value type="String">Connecting Women in Culinary Science Across Canada (WCSAC)</value>
+        </field>
+        <field id="9def30776da74a1597de4fd0d9a0e74b" label="Activity Start Date">
+          <value format="yyyy-MM-dd" type="Date">2003-11-05</value>
+        </field>
+        <field id="0dc7af4aa5ff4bb880bb6a5db48a9b55" label="Activity End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-31</value>
+        </field>
+        <field id="7cf2f82472bd4d7086f58b43c488b39e" label="Primary Event Organizer">
+          <value type="String">Canadian Culinary Society's Women in Food Science Committee</value>
+        </field>
+        <field id="cf11be8d0fa94624b80a11ad83a911e8" label="Event Start Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-03</value>
+        </field>
+        <field id="aabcc98da2b348ea9502c35177096674" label="Event End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-05</value>
+        </field>
+        <field id="32a0b4e43c8147cdae1ad306b4cb3353" label="Activity Description">
+          <value type="Bilingual">My main role was writing the proposal for the event to be hosted at the Banff International Research Station, and  raising funds from Food Science institutes across Canada.&#13;
+&#13;
+I have also been involved in setting the schedule, selection of participants, and &#13;
+served as the liaison with Banff center.</value>
+          <bilingual>
+            <english>My main role was writing the proposal for the event to be hosted at the Banff International Research Station, and  raising funds from Food Science institutes across Canada.&#13;
+&#13;
+I have also been involved in setting the schedule, selection of participants, and &#13;
+served as the liaison with Banff center.</english>
+          </bilingual>
+        </field>
+      </section>
+      <section id="7564fc922478441c97c9857809028895" label="Event Administration" recordId="30ceb2d5c5ef4fce8674f2f3030c4d29">
+        <field id="31cdeb30328e410cb6b78fa48435be08" label="Role">
+          <value type="String">Co-organizer</value>
+        </field>
+        <field id="7878a016f370434a8364beca1a47ea20" label="Event Type">
+          <lov id="00000000000000000000000100000700">Conference</lov>
+        </field>
+        <field id="f5389531adca4f54a4e9bee39532323c" label="Event Name">
+          <value type="String">ACS Special Session: Advanced Cooking (Bay Leaf)</value>
+        </field>
+        <field id="9def30776da74a1597de4fd0d9a0e74b" label="Activity Start Date">
+          <value format="yyyy-MM-dd" type="Date">2003-09-16</value>
+        </field>
+        <field id="0dc7af4aa5ff4bb880bb6a5db48a9b55" label="Activity End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-19</value>
+        </field>
+        <field id="7cf2f82472bd4d7086f58b43c488b39e" label="Primary Event Organizer">
+          <value type="String">American Culinary Society</value>
+        </field>
+        <field id="cf11be8d0fa94624b80a11ad83a911e8" label="Event Start Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-18</value>
+        </field>
+        <field id="aabcc98da2b348ea9502c35177096674" label="Event End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-10-19</value>
+        </field>
+        <field id="32a0b4e43c8147cdae1ad306b4cb3353" label="Activity Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+      </section>
+      <section id="7564fc922478441c97c9857809028895" label="Event Administration" recordId="8df8bdeb364140c0ac79da749d3fff34">
+        <field id="31cdeb30328e410cb6b78fa48435be08" label="Role">
+          <value type="String">Co-organizer</value>
+        </field>
+        <field id="7878a016f370434a8364beca1a47ea20" label="Event Type">
+          <lov id="00000000000000000000000100000700">Conference</lov>
+        </field>
+        <field id="f5389531adca4f54a4e9bee39532323c" label="Event Name">
+          <value type="String">CCS Special Session: Advanced Cooking and Food Preparation (Bay Leaf University)</value>
+        </field>
+        <field id="9def30776da74a1597de4fd0d9a0e74b" label="Activity Start Date">
+          <value format="yyyy-MM-dd" type="Date">2002-03-12</value>
+        </field>
+        <field id="0dc7af4aa5ff4bb880bb6a5db48a9b55" label="Activity End Date">
+          <value format="yyyy-MM-dd" type="Date">2003-06-07</value>
+        </field>
+        <field id="7cf2f82472bd4d7086f58b43c488b39e" label="Primary Event Organizer">
+          <value type="String">Canadian Culinary Society</value>
+        </field>
+        <field id="cf11be8d0fa94624b80a11ad83a911e8" label="Event Start Date">
+          <value format="yyyy-MM-dd" type="Date">2003-06-04</value>
+        </field>
+        <field id="aabcc98da2b348ea9502c35177096674" label="Event End Date">
+          <value format="yyyy-MM-dd" type="Date">2003-06-07</value>
+        </field>
+        <field id="32a0b4e43c8147cdae1ad306b4cb3353" label="Activity Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+      </section>
+      <section id="95433781426f45749b05ff6bc0062dd9" label="Editorial Activities" recordId="6093784ca2bf4d94a234f01fbcae4a5a">
+        <field id="bca52391a28840879ef185c41ae728e3" label="Role">
+          <value type="String">Editor</value>
+        </field>
+        <field id="024515508fd2498f99516cb71a109da1" label="Publication Type">
+          <lov id="00000000000000000000000100001602">Journal</lov>
+        </field>
+        <field id="42711a8af574435f82b02c5f455d96fb" label="Publication Name">
+          <value type="String">Transactions on Cooked and Raw Foods</value>
+        </field>
+        <field id="cbe5defb3e804adbb0e7cdc581b55fd0" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">2003/4</value>
+        </field>
+        <field id="c4c319cffb764895bb4b98c360275978" label="End Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="a95eb3c02b964746ab3c30ad0bd60a27" label="Activity Description">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+      </section>
+    </section>
+    <section id="75930c16c4eb4448bc2da9d139fb59e2" label="Advisory Activities">
+      <section id="0b02926db8bc40aab5cece1b1b8e7ed3" label="Mentoring Activities" recordId="88e6b0aa8fa143969bdebf5ae2fe6912">
+        <field id="9b610045004a4757a6b73404e1c16637" label="Role">
+          <value type="String">Panel Moderator</value>
+        </field>
+        <field id="6468b75d4c01484cbae5ee4220dd40fa" label="Organization"/>
+        <field id="93d3b68e2aa241dca3efdc94e04ed760" label="Other Organization Type">
+          <lov id="00000000000000000000000000000133">Not for Profit</lov>
+        </field>
+        <field id="4c6e9182e0c94001a6fc81e90345b02a" label="Other Organization Location">
+          <refTable refValueId="00000000000000000000039926666400" label="Country-Subdivision">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          </refTable>
+        </field>
+        <field id="22fe471e03f744a495fd875b84009451" label="Other Organization">
+          <value type="String">CCS Women in Food Science</value>
+        </field>
+        <field id="d2390c1254c349afae826d0b4a163f12" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">2003/6</value>
+        </field>
+        <field id="f43efad82a53463785f22d3e8acd8508" label="End Date">
+          <value format="yyyy/MM" type="YearMonth"/>
+        </field>
+        <field id="465818befddc4301bb957c0cea9db6a1" label="Activity Description">
+          <value type="Bilingual">Panel moderator for the Women in Food Science Luncheon and Panel Discussion held during the CCS Summer meeting in Bay Leaf</value>
+          <bilingual>
+            <english>Panel moderator for the Women in Food Science Luncheon and Panel Discussion held during the CCS Summer meeting in Bay Leaf</english>
+          </bilingual>
+        </field>
+        <field id="afc84d18d4114b4ebaf214655d6c82f1" label="Number of Mentorees">
+          <value type="Number"/>
+        </field>
+        <field id="67c5f48c8b374e39be8cc00e653ce24a" label="Mentorees">
+          <value type="String"/>
+        </field>
+      </section>
+    </section>
+    <section id="99613195a04f4e3a9fdd129cb2242550" label="Assessment and Review Activities">
+      <section id="3f4e029fb3a141958126bcbc9d086acd" label="Journal Review Activities" recordId="240bf67e6bab49f994ec9206c4fe903e">
+        <field id="ddc01053231c442d89dc9d18199c8495" label="Role">
+          <value type="String">Referee</value>
+        </field>
+        <field id="59990065210f4bc084270ef862602cc4" label="Review Type">
+          <lov id="00000000000000000000000100001901">Blind</lov>
+        </field>
+        <field id="e206eee3330a41c6ada624c29265fde7" label="Journal">
+          <value type="String">Elec. J. Cook., Food Sci. Scand., Mich. Food Sci. J., J. Cook. Bak.,&#13;
+J. Mod. Food, Taiwanese J. Food Sci., Korean J. Food Sci.,&#13;
+J. Appl. Skillets, Stud. Food Sci. Hung., J. Digest.</value>
+        </field>
+        <field id="9b9aaa304dcf4bd78e20c211ba3b0bee" label="Press">
+          <value type="String"/>
+        </field>
+        <field id="0c8f14842ab04c8daa4749b864f46a6c" label="Number of Works Reviewed / Refereed">
+          <value type="Number"/>
+        </field>
+        <field id="0d2099f8e48d458c95452f1051670d44" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">2002/10</value>
+        </field>
+        <field id="075e5d8f38624311a1f2bd0a0a7b69e3" label="End Date">
+          <value format="yyyy/MM" type="YearMonth">2004/9</value>
+        </field>
+      </section>
+      <section id="3f4e029fb3a141958126bcbc9d086acd" label="Journal Review Activities" recordId="f2219bce09e14b05aae95c362c0422c5">
+        <field id="ddc01053231c442d89dc9d18199c8495" label="Role">
+          <value type="String">Referee</value>
+        </field>
+        <field id="59990065210f4bc084270ef862602cc4" label="Review Type">
+          <lov id="00000000000000000000000100001901">Blind</lov>
+        </field>
+        <field id="e206eee3330a41c6ada624c29265fde7" label="Journal">
+          <value type="String">J. Cook., J.  Cook. Thry, Proc. ACS, Comm. Alg.,
+Sao Paulo J. Food Sc., J. Harv. and Cook.</value>
+        </field>
+        <field id="9b9aaa304dcf4bd78e20c211ba3b0bee" label="Press">
+          <value type="String"/>
+        </field>
+        <field id="0c8f14842ab04c8daa4749b864f46a6c" label="Number of Works Reviewed / Refereed">
+          <value type="Number"/>
+        </field>
+        <field id="0d2099f8e48d458c95452f1051670d44" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">1994/1</value>
+        </field>
+        <field id="075e5d8f38624311a1f2bd0a0a7b69e3" label="End Date">
+          <value format="yyyy/MM" type="YearMonth">2001/12</value>
+        </field>
+      </section>
+      <section id="7cc778c33e64469987c55e2078be60d3" label="Conference Review Activities" recordId="c22a12fd4c6e4c1288a194c76e4eb0c5">
+        <field id="0f7c54b47ec8402cbf4cdd3f40a02088" label="Role">
+          <value type="String">Referee</value>
+        </field>
+        <field id="b5f58c56b4544a969ac6013d1d7de0fa" label="Review Type">
+          <lov id="00000000000000000000000100001901">Blind</lov>
+        </field>
+        <field id="9cdaafaa865246bc9637444cb90ae9a6" label="Conference">
+          <value type="String">Agriculture and the Food Supply (AFS), 1995 and 2003</value>
+        </field>
+        <field id="ccdbf373f45943ebbafb3686a0729b94" label="Conference Host">
+          <value type="String">Rome (Italy) and Paris (France)</value>
+        </field>
+        <field id="7189023217b44dba9d4ac5c76ffe6c10" label="Number of Works Reviewed / Refereed">
+          <value type="Number"/>
+        </field>
+        <field id="d4416b30f7334868b4e4723210fd9e95" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">1995/1</value>
+        </field>
+        <field id="2864d354e9f94ae5a7f629c63faf1313" label="End Date">
+          <value format="yyyy/MM" type="YearMonth">2003/1</value>
+        </field>
+      </section>
+      <section id="7cc778c33e64469987c55e2078be60d3" label="Conference Review Activities" recordId="af16c067a40743409037833dbcfdc0e4">
+        <field id="0f7c54b47ec8402cbf4cdd3f40a02088" label="Role">
+          <value type="String">Referee</value>
+        </field>
+        <field id="b5f58c56b4544a969ac6013d1d7de0fa" label="Review Type">
+          <lov id="00000000000000000000000100001901">Blind</lov>
+        </field>
+        <field id="9cdaafaa865246bc9637444cb90ae9a6" label="Conference">
+          <value type="String">International Symposium on Digestible Foods (ISDF)</value>
+        </field>
+        <field id="ccdbf373f45943ebbafb3686a0729b94" label="Conference Host">
+          <value type="String">University of Milan, Milan, Italy</value>
+        </field>
+        <field id="7189023217b44dba9d4ac5c76ffe6c10" label="Number of Works Reviewed / Refereed">
+          <value type="Number"/>
+        </field>
+        <field id="d4416b30f7334868b4e4723210fd9e95" label="Start Date">
+          <value format="yyyy/MM" type="YearMonth">1996/1</value>
+        </field>
+        <field id="2864d354e9f94ae5a7f629c63faf1313" label="End Date">
+          <value format="yyyy/MM" type="YearMonth">1996/2</value>
+        </field>
+      </section>
+      <section id="634d8533ca7e45978c29c1d63bc870f4" label="Graduate Examination Activities" recordId="cee41d87c2114ef7b5a543e2ffcd48eb">
+        <field id="c284901ff35a422480b1a339fdbdc5a9" label="Graduate Examination Activity Role">
+          <lov id="00000000000000000000000100002418">PhD Oral Exam Member</lov>
+        </field>
+        <field id="fda0e32cdb2240f496ce2730abb580ce" label="Organization">
+          <refTable refValueId="00000000000000000000006544937977" label="Organization">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+            <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+            <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+          </refTable>
+        </field>
+        <field id="05db06111f314f9fa5f1661d8af25420" label="Other Organization Type"/>
+        <field id="78cfe9860e3145469c1322d3e39f31c3" label="Other Organization Location"/>
+        <field id="3ad77c61a98b4df180a927c0678e43a4" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="3736ec7cb4b947c6911152a6f61ed8c6" label="Department">
+          <value type="String">Culinary Science</value>
+        </field>
+        <field id="9cc674941885472998a13e8350ddfe01" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">2004-09-30</value>
+        </field>
+        <field id="8629d8d2925141569b3dec4e206a6b83" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-09-30</value>
+        </field>
+        <field id="a031bfe7382a401cbf3686120c5ba8e4" label="Student Name">
+          <value type="String">M. Jones</value>
+        </field>
+      </section>
+      <section id="634d8533ca7e45978c29c1d63bc870f4" label="Graduate Examination Activities" recordId="c81dc595bb0e45729185f2ee32e3c96c">
+        <field id="c284901ff35a422480b1a339fdbdc5a9" label="Graduate Examination Activity Role">
+          <lov id="00000000000000000000000100002406">Thesis Defense Examiner</lov>
+        </field>
+        <field id="fda0e32cdb2240f496ce2730abb580ce" label="Organization">
+          <refTable refValueId="00000000000000000000006544937977" label="Organization">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+            <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+            <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+          </refTable>
+        </field>
+        <field id="05db06111f314f9fa5f1661d8af25420" label="Other Organization Type"/>
+        <field id="78cfe9860e3145469c1322d3e39f31c3" label="Other Organization Location"/>
+        <field id="3ad77c61a98b4df180a927c0678e43a4" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="3736ec7cb4b947c6911152a6f61ed8c6" label="Department">
+          <value type="String">Culinary Science</value>
+        </field>
+        <field id="9cc674941885472998a13e8350ddfe01" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">2001-08-15</value>
+        </field>
+        <field id="8629d8d2925141569b3dec4e206a6b83" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-09-15</value>
+        </field>
+        <field id="a031bfe7382a401cbf3686120c5ba8e4" label="Student Name">
+          <value type="String">PhD: A. Hurston, R. Norman, C. Connor</value>
+        </field>
+      </section>
+      <section id="634d8533ca7e45978c29c1d63bc870f4" label="Graduate Examination Activities" recordId="ba968161c2fd4f95a556da32f5018535">
+        <field id="c284901ff35a422480b1a339fdbdc5a9" label="Graduate Examination Activity Role">
+          <lov id="00000000000000000000000100002402">Examiner</lov>
+        </field>
+        <field id="fda0e32cdb2240f496ce2730abb580ce" label="Organization">
+          <refTable refValueId="00000000000000000000006544937977" label="Organization">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+            <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+            <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+          </refTable>
+        </field>
+        <field id="05db06111f314f9fa5f1661d8af25420" label="Other Organization Type"/>
+        <field id="78cfe9860e3145469c1322d3e39f31c3" label="Other Organization Location"/>
+        <field id="3ad77c61a98b4df180a927c0678e43a4" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="3736ec7cb4b947c6911152a6f61ed8c6" label="Department">
+          <value type="String">Culinary Science</value>
+        </field>
+        <field id="9cc674941885472998a13e8350ddfe01" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">1995-12-01</value>
+        </field>
+        <field id="8629d8d2925141569b3dec4e206a6b83" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-09-15</value>
+        </field>
+        <field id="a031bfe7382a401cbf3686120c5ba8e4" label="Student Name">
+          <value type="String">Specialist Chef Examination to many students</value>
+        </field>
+      </section>
+      <section id="af9a2a51e320436d97170bc90b5180e6" label="Research Funding Application Assessment Activities" recordId="1a8341f4ce1a491cb883d984ca8ebe1f">
+        <field id="bbb05266b3d64fb39c57c05632856418" label="Funding Reviewer Role">
+          <lov id="00000000000000000000000100002703">External Reviewer</lov>
+        </field>
+        <field id="f40cfa94bedc4f6a872f3976f9547207" label="Assessment Type">
+          <lov id="00000000000000000000000100000101">Funder</lov>
+        </field>
+        <field id="f29cc450d9d24d59aa263273af90aba3" label="Reviewer Type">
+          <lov id="00000000000000000000000100002000">Academic Reviewer</lov>
+        </field>
+        <field id="dc14b30de4f243b5811d7467de88a6bf" label="Committee Name">
+          <value type="String"/>
+        </field>
+        <field id="c7749851b7fa4b83a00c86aa84e20826" label="Organization"/>
+        <field id="44c19ff17a3349e8a8429a9ec46a34bb" label="Other Organization Type">
+          <lov id="00000000000000000000000000000129">Federal Government</lov>
+        </field>
+        <field id="e8549a778bb440dfb2a26699150acb06" label="Other Organization Location">
+          <refTable refValueId="00000000000000000000254240200320" label="Country-Subdivision">
+            <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Connecticut" refOrLovId="00000000000000000000000000100000"/>
+          </refTable>
+        </field>
+        <field id="beb18622dffa468f94340432904a6c7b" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="ad9fec09dbfb4f8ebfe39587292bb100" label="Funding Organization">
+          <value type="String">US Fast Food Review Board (FFRB)</value>
+        </field>
+        <field id="dfaca41b6eda4b0e9f3af7090bc719d5" label="Number of Applications Assessed">
+          <value type="Number">3</value>
+        </field>
+        <field id="bc820a00b99d400c9468c1b4924a4f51" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">2000-03-05</value>
+        </field>
+        <field id="cd2f1341e17342ef8b464e3f939ee977" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">2004-04-15</value>
+        </field>
+      </section>
+      <section id="af9a2a51e320436d97170bc90b5180e6" label="Research Funding Application Assessment Activities" recordId="932c5dd6f1c142cd930521a38d5b853e">
+        <field id="bbb05266b3d64fb39c57c05632856418" label="Funding Reviewer Role">
+          <lov id="00000000000000000000000100002703">External Reviewer</lov>
+        </field>
+        <field id="f40cfa94bedc4f6a872f3976f9547207" label="Assessment Type">
+          <lov id="00000000000000000000000100000101">Funder</lov>
+        </field>
+        <field id="f29cc450d9d24d59aa263273af90aba3" label="Reviewer Type">
+          <lov id="00000000000000000000000100002000">Academic Reviewer</lov>
+        </field>
+        <field id="dc14b30de4f243b5811d7467de88a6bf" label="Committee Name">
+          <value type="String"/>
+        </field>
+        <field id="c7749851b7fa4b83a00c86aa84e20826" label="Organization">
+          <refTable refValueId="ba1c24759af3408aae6542f761070d42" label="Organization">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+            <linkedWith label="Organization Type" value="Federal Government" refOrLovId="00000000000000000000000000030000"/>
+            <linkedWith label="Organization" value="Nutritious Sausage, Endive, and Radish Council of Canada (NSERC)" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+          </refTable>
+        </field>
+        <field id="44c19ff17a3349e8a8429a9ec46a34bb" label="Other Organization Type"/>
+        <field id="e8549a778bb440dfb2a26699150acb06" label="Other Organization Location"/>
+        <field id="beb18622dffa468f94340432904a6c7b" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="ad9fec09dbfb4f8ebfe39587292bb100" label="Funding Organization">
+          <value type="String"/>
+        </field>
+        <field id="dfaca41b6eda4b0e9f3af7090bc719d5" label="Number of Applications Assessed">
+          <value type="Number">1</value>
+        </field>
+        <field id="bc820a00b99d400c9468c1b4924a4f51" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">1996-12-15</value>
+        </field>
+        <field id="cd2f1341e17342ef8b464e3f939ee977" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">1997-01-15</value>
+        </field>
+      </section>
+      <section id="d936ced236a14d59a24fad5f41befd94" label="Organizational Review Activities" recordId="df4e2b0427714b979f0bc01f0ba0dc63">
+        <field id="c030139006a74969a4d191711ba0557b" label="Role">
+          <value type="String">Participant</value>
+        </field>
+        <field id="2bd6e279a13944f5b63938fc8169768c" label="Organization"/>
+        <field id="731da824622d460ab1490435169f2a04" label="Other Organization Type">
+          <lov id="00000000000000000000000000000408">Research</lov>
+        </field>
+        <field id="5ac1165bc0ff45f0a59cc2ccb91795e3" label="Other Organization Location">
+          <refTable refValueId="00000000000000000000040168282560" label="Country-Subdivision">
+            <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Quebec" refOrLovId="00000000000000000000000000100000"/>
+          </refTable>
+        </field>
+        <field id="025f3819c6af4ac19eb5a64eb64e1f3e" label="Other Organization">
+          <value type="String">Centre de Recherches d'Alimentation (CRA)</value>
+        </field>
+        <field id="2786302e3cfc47ee8bd9248acb9754a6" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">1997-01-15</value>
+        </field>
+        <field id="70e06bb0787f468aa41d36991f663984" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">1997-01-15</value>
+        </field>
+        <field id="fddf414852db46dbbb1a9f93674216c1" label="Activity Description">
+          <value type="Bilingual">Invited test-eater in one of CRA sessions. Participated in review of raw and cooked foods.</value>
+          <bilingual>
+            <english>Invited test-eater in one of CRA sessions</english>
+          </bilingual>
+        </field>
+      </section>
+      <section id="d936ced236a14d59a24fad5f41befd94" label="Organizational Review Activities" recordId="0bea72f68ddf450499708c17b37de4d4">
+        <field id="c030139006a74969a4d191711ba0557b" label="Role">
+          <value type="String">Participant</value>
+        </field>
+        <field id="2bd6e279a13944f5b63938fc8169768c" label="Organization"/>
+        <field id="731da824622d460ab1490435169f2a04" label="Other Organization Type">
+          <lov id="00000000000000000000000000000133">Not for Profit</lov>
+        </field>
+        <field id="5ac1165bc0ff45f0a59cc2ccb91795e3" label="Other Organization Location">
+          <refTable refValueId="00000000000000000000253454947800" label="Country-Subdivision">
+            <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="New Mexico" refOrLovId="00000000000000000000000000100000"/>
+          </refTable>
+        </field>
+        <field id="025f3819c6af4ac19eb5a64eb64e1f3e" label="Other Organization">
+          <value type="String">American Culinary Society</value>
+        </field>
+        <field id="2786302e3cfc47ee8bd9248acb9754a6" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date">1992-01-08</value>
+        </field>
+        <field id="70e06bb0787f468aa41d36991f663984" label="End Date">
+          <value format="yyyy-MM-dd" type="Date">1992-01-08</value>
+        </field>
+        <field id="fddf414852db46dbbb1a9f93674216c1" label="Activity Description">
+          <value type="Bilingual">ACS Committee on Procurement of Rare Ingredients. Participated in a discussion group on grocery shopping.</value>
+          <bilingual>
+            <english>ACS Committee on Meetings&#13;
+and Conferences. Participated in a focus group to discuss the&#13;
+impact of and improvements to ACS meetings.</english>
+          </bilingual>
+        </field>
+      </section>
+    </section>
+    <section id="42b12f4fc72e4ccab5f05a07383a4a3d" label="Participation Activities">
+      <section id="e4c83c62880c4db28c8dd91f572ff923" label="Event Participation" recordId="cec3635dc5da48c0ad9ce45392b929a0">
+        <field id="8171fde7270f48108d3fcbdf674dacbe" label="Role">
+          <value type="String">Participant</value>
+        </field>
+        <field id="5375d6ecd533422c8506812193185afc" label="Event Type">
+          <lov id="00000000000000000000000100000703">Workshop</lov>
+        </field>
+        <field id="f0ac796a53204436bc42bd1f090e3103" label="Event Name">
+          <value type="String">WCSAC Workshop: Women in Culinary Science</value>
+        </field>
+        <field id="990e0e4ac2fb4740b8a17a8271f76966" label="Start Date">
+          <value format="yyyy-MM-dd" type="Date"/>
+        </field>
+        <field id="c735a919b0484543aa5e4913ccb4fadd" label="End Date">
+          <value format="yyyy-MM-dd" type="Date"/>
+        </field>
+        <field id="bb21062baabb4b6eb0991e21fd33c5d7" label="Event Start Date">
+          <value format="yyyy-MM-dd" type="Date">1996-09-23</value>
+        </field>
+        <field id="5c29f04e7a1c4f3e956d3bf6b79a798d" label="Event End Date">
+          <value format="yyyy-MM-dd" type="Date">1996-09-28</value>
+        </field>
+        <field id="e34fa0d134d34ed3811c3600812fdb07" label="Activity Description">
+          <value type="Bilingual">Invited participant and member of panel discussion on &#x201c;Chopping, dicing, and cutting: successes and challenges.&#x201d;  Helped develop policies and strategies that support and advance women in Culinary Science.</value>
+          <bilingual>
+            <english>Invited participant and member of panel discussion on &#x201c;Chopping, dicing, and cutting: successes and challenges.&#x201d;  Helped develop policies and strategies that support and advance women in Culinary Science.</english>
+          </bilingual>
+        </field>
+      </section>
+    </section>
+  </section>
+  <section id="ee130288917f4e23adcc800a94ae355c" label="Memberships">
+    <section id="6c3b449732a84ac9af45d6935b8323d9" label="Committee Memberships" recordId="40cb1d2280914a26a5549a7eeaef7275">
+      <field id="da89e8800c6641be91b0b21a61118c09" label="Role">
+        <lov id="00000000000000000000000100002301">Committee Member</lov>
+      </field>
+      <field id="b3c21a20aeee49cea5c1c33029da4c4c" label="Committee Name">
+        <value type="String">CCS Board of Directors</value>
+      </field>
+      <field id="e1f84da9b6df40fe9db972af2f85e5eb" label="Organization"/>
+      <field id="2ef5054449c44bbeba1cd30cd9a63549" label="Other Organization Type">
+        <lov id="00000000000000000000000000000408">Research</lov>
+      </field>
+      <field id="52a9797ee0b841e5b684e9e40d8aa0e9" label="Other Organization Location">
+        <refTable refValueId="00000000000000000000040047474480" label="Country-Subdivision">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+        </refTable>
+      </field>
+      <field id="99aa9de868c442f281a0ba67a3d3116d" label="Other Organization">
+        <value type="String">Canadian Culinary Society</value>
+      </field>
+      <field id="4c1a9700923d4bf9b541e479f4f32a66" label="Membership Start Date">
+        <value format="yyyy/MM" type="YearMonth">2003/7</value>
+      </field>
+      <field id="acf1a91ab6cd43bfbdc3ee3df5cb7af7" label="Description">
+        <value type="Bilingual">The goal of the Canadian Culinary Society is to promote and advance the discovery, learning and application of culinary science.</value>
+        <bilingual>
+          <english>The goal of the Canadian Culinary Society is to promote and advance the discovery, learning and application of culinary science.</english>
+        </bilingual>
+      </field>
+      <field id="1db804cbb6f04c64b57e60c306557d91" label="Membership End Date">
+        <value format="yyyy/MM" type="YearMonth">2007/6</value>
+      </field>
+    </section>
+    <section id="6c3b449732a84ac9af45d6935b8323d9" label="Committee Memberships" recordId="48f33648574a47c883339ec0e7989e81">
+      <field id="da89e8800c6641be91b0b21a61118c09" label="Role">
+        <lov id="00000000000000000000000100002300">Chair</lov>
+      </field>
+      <field id="b3c21a20aeee49cea5c1c33029da4c4c" label="Committee Name">
+        <value type="String">Culinary Science Graduate Committee</value>
+      </field>
+      <field id="e1f84da9b6df40fe9db972af2f85e5eb" label="Organization">
+        <refTable refValueId="00000000000000000000006544937977" label="Organization">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+          <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+          <linkedWith label="Organization" value="Bay Leaf University" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+        </refTable>
+      </field>
+      <field id="2ef5054449c44bbeba1cd30cd9a63549" label="Other Organization Type"/>
+      <field id="52a9797ee0b841e5b684e9e40d8aa0e9" label="Other Organization Location"/>
+      <field id="99aa9de868c442f281a0ba67a3d3116d" label="Other Organization">
+        <value type="String"/>
+      </field>
+      <field id="4c1a9700923d4bf9b541e479f4f32a66" label="Membership Start Date">
+        <value format="yyyy/MM" type="YearMonth">2003/1</value>
+      </field>
+      <field id="acf1a91ab6cd43bfbdc3ee3df5cb7af7" label="Description">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="1db804cbb6f04c64b57e60c306557d91" label="Membership End Date">
+        <value format="yyyy/MM" type="YearMonth">2005/12</value>
+      </field>
+    </section>
+    <section id="cbc6f120ec5e49c79d1c50fac0e92359" label="Other Memberships" recordId="35d112d01960485aa1405e95f5d07a59">
+      <field id="ee344aa665f948dc9358e8016e6caca4" label="Role">
+        <value type="String">Member</value>
+      </field>
+      <field id="879331c5513b4991ac80f92f25dc0cce" label="Organization"/>
+      <field id="cebfba23f38c49029eac7ccda10dc1bb" label="Other Organization Type"/>
+      <field id="8e4ef589f3ef4ea2a8ca2e5a2b15d384" label="Other Organization Location"/>
+      <field id="11f1c7611fbb4dd89401643bf7bd7d31" label="Other Organization">
+        <value type="String">CCS, ACS, AWC, CSA</value>
+      </field>
+      <field id="d5887f3620a541f6a99dde3bea9cd932" label="Membership Start Date">
+        <value format="yyyy-MM-dd" type="Date">1984-09-01</value>
+      </field>
+      <field id="5d7500f47693421b899203e9a22ec860" label="Membership End Date">
+        <value format="yyyy-MM-dd" type="Date"/>
+      </field>
+      <field id="09d50e81ecc44f4ab7b7434903b00055" label="Description">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+    </section>
+    <section id="cbc6f120ec5e49c79d1c50fac0e92359" label="Other Memberships" recordId="93147df2761f40debdc0398035304da4">
+      <field id="ee344aa665f948dc9358e8016e6caca4" label="Role">
+        <value type="String">Member</value>
+      </field>
+      <field id="879331c5513b4991ac80f92f25dc0cce" label="Organization"/>
+      <field id="cebfba23f38c49029eac7ccda10dc1bb" label="Other Organization Type">
+        <lov id="00000000000000000000000000000133">Not for Profit</lov>
+      </field>
+      <field id="8e4ef589f3ef4ea2a8ca2e5a2b15d384" label="Other Organization Location"/>
+      <field id="11f1c7611fbb4dd89401643bf7bd7d31" label="Other Organization">
+        <value type="String">CSA Project BarBQ</value>
+      </field>
+      <field id="d5887f3620a541f6a99dde3bea9cd932" label="Membership Start Date">
+        <value format="yyyy-MM-dd" type="Date">1990-09-01</value>
+      </field>
+      <field id="5d7500f47693421b899203e9a22ec860" label="Membership End Date">
+        <value format="yyyy-MM-dd" type="Date">1991-05-30</value>
+      </field>
+      <field id="09d50e81ecc44f4ab7b7434903b00055" label="Description">
+        <value type="Bilingual">Project BarBQ is a professional development program for new or recent Ph.D.s in the culinary sciences.</value>
+        <bilingual>
+          <english>Project BarBQ is a professional development program for new or recent Ph.D.s in the culinary sciences.</english>
+        </bilingual>
+      </field>
+    </section>
+  </section>
+  <section id="047ec63e32fe450e943cb678339e8102" label="Contributions">
+    <section id="c7ce6f054e0941ea8b27127dbd4a26d0" label="Presentations" recordId="aa800f5010c9417e986471236562cfc3">
+      <field id="3f6a7ac56ee64b7dbd84dba9d6e3302d" label="Presentation Title">
+        <value type="String">Food from simple sources</value>
+      </field>
+      <field id="8d882e55b0a54d0b8eec347f5502a19b" label="Conference / Event Name">
+        <value type="String">Special Session: Advanced Cooking: Food Sources and Preparation Methods, CCS Winter meeting</value>
+      </field>
+      <field id="f4b5f1a1d181404ca9c0fea81f9a7e79" label="Location">
+        <refTable refValueId="00000000000000000000040047474480" label="Country-Subdivision">
+          <linkedWith label="Country" value="Canada" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="Ontario" refOrLovId="00000000000000000000000000100000"/>
+        </refTable>
+      </field>
+      <field id="de6f8e0d7a714b07a4671af86405c6c9" label="City">
+        <value type="String">Toronto</value>
+      </field>
+      <field id="5f01d3af96d54a7ca3926b467dc946b7" label="Main Audience">
+        <lov id="00000000000000000000000100005000">Researcher</lov>
+      </field>
+      <field id="720d2f02feaf4aacb06ce60be0c6f603" label="Invited?">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="9b6d317fd53e4b6a9e2e1d9e2001f3f5" label="Keynote?"/>
+      <field id="9caf21634d984fc597f069f6e4a0a351" label="Competitive?"/>
+      <field id="725e4c54320b474680feaf530567fdd3" label="Presentation Date">
+        <value format="yyyy-MM-dd" type="Date">2004-12-05</value>
+      </field>
+      <field id="cc257bd89e6341a6bd53cc1cf05935c9" label="Description / Contribution Value">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="8f612e2d2b23458fa114d8a790c38e13" label="URL">
+        <value type="String"/>
+      </field>
+      <field id="d1dde22650bf4c508cf997beee12ef50" label="Co-Presenters">
+        <value type="String"/>
+      </field>
+      <section id="cc8c1c8aed3846fb974c7e78a36d1fe8" label="Funding Sources" recordId="c438b6cdf571447ea4558cf92e9f6924">
+        <field id="dea1d6ce48c5428ba9ed5514b686f8b6" label="Funding Organization">
+          <lov id="00000000000000000000000014012321">Nutritious Sausage, Endive, and Radish Council of Canada (NSERC)</lov>
+        </field>
+        <field id="1820364f91d448e68dd83e822c4b0265" label="Other Funding Organization">
+          <value type="String"/>
+        </field>
+        <field id="ff2a03e05d9a4546b2e4fb65577ab5ff" label="Funding Reference Number">
+          <value type="String"/>
+        </field>
+      </section>
+    </section>
+    <section id="c7ce6f054e0941ea8b27127dbd4a26d0" label="Presentations" recordId="5ebb04493c864ee7ab12fd7a948646d6">
+      <field id="3f6a7ac56ee64b7dbd84dba9d6e3302d" label="Presentation Title">
+        <value type="String">Why we eat what we eat</value>
+      </field>
+      <field id="8d882e55b0a54d0b8eec347f5502a19b" label="Conference / Event Name">
+        <value type="String">Special Session: Extra Slow Food Preparation and Advanced Low-Impact Cooking, ACS Sectional Meeting</value>
+      </field>
+      <field id="f4b5f1a1d181404ca9c0fea81f9a7e79" label="Location">
+        <refTable refValueId="00000000000000000000253213331640" label="Country-Subdivision">
+          <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+          <linkedWith label="Subdivision" value="California" refOrLovId="00000000000000000000000000100000"/>
+        </refTable>
+      </field>
+      <field id="de6f8e0d7a714b07a4671af86405c6c9" label="City">
+        <value type="String">San Antonio</value>
+      </field>
+      <field id="5f01d3af96d54a7ca3926b467dc946b7" label="Main Audience">
+        <lov id="00000000000000000000000100005000">Researcher</lov>
+      </field>
+      <field id="720d2f02feaf4aacb06ce60be0c6f603" label="Invited?">
+        <lov id="00000000000000000000000000000400">Yes</lov>
+      </field>
+      <field id="9b6d317fd53e4b6a9e2e1d9e2001f3f5" label="Keynote?"/>
+      <field id="9caf21634d984fc597f069f6e4a0a351" label="Competitive?"/>
+      <field id="725e4c54320b474680feaf530567fdd3" label="Presentation Date">
+        <value format="yyyy-MM-dd" type="Date">2004-10-24</value>
+      </field>
+      <field id="cc257bd89e6341a6bd53cc1cf05935c9" label="Description / Contribution Value">
+        <value type="Bilingual"/>
+        <bilingual/>
+      </field>
+      <field id="8f612e2d2b23458fa114d8a790c38e13" label="URL">
+        <value type="String"/>
+      </field>
+      <field id="d1dde22650bf4c508cf997beee12ef50" label="Co-Presenters">
+        <value type="String"/>
+      </field>
+      <section id="cc8c1c8aed3846fb974c7e78a36d1fe8" label="Funding Sources" recordId="d5228a9d187b45428452cc6899511b39">
+        <field id="dea1d6ce48c5428ba9ed5514b686f8b6" label="Funding Organization">
+          <lov id="00000000000000000000000014005602">Bay Leaf University</lov>
+        </field>
+        <field id="1820364f91d448e68dd83e822c4b0265" label="Other Funding Organization">
+          <value type="String"/>
+        </field>
+        <field id="ff2a03e05d9a4546b2e4fb65577ab5ff" label="Funding Reference Number">
+          <value type="String"/>
+        </field>
+      </section>
+    </section>
+    <section id="ec6a032c4286497fbc2c7e5c64f02fbf" label="Interviews and Media Relations">
+      <section id="d8ed6dffd5c1463980ecd309ced3e024" label="Text Interviews" recordId="086b8bd3d93244c69924a75374ec7063">
+        <field id="d816e4b744e24b0ca906072bd49c5391" label="Topic">
+          <value type="String">Flavours and Aromas in Food Science</value>
+        </field>
+        <field id="4af334bdcbe8400c8b97574d50df3b0f" label="Interviewer">
+          <value type="String">Ontario Chair for Tasty Morsels,</value>
+        </field>
+        <field id="da23968a8f5c49709dbcd7358fbd4ecc" label="Forum">
+          <value type="String">Chair for Aromatic Food and Beverages</value>
+        </field>
+        <field id="c5b7a33140f54342a2349e5d46d65f3e" label="Publication Date">
+          <value format="yyyy-MM-dd" type="Date">2004-09-09</value>
+        </field>
+        <field id="44efe9b9105f4bb8a47ad51296383db1" label="Description / Contribution Value">
+          <value type="Bilingual">"This interview series showcases persons with special achievements in the preparation of tasty food and beverages."</value>
+          <bilingual>
+            <english>"This interview series showcases persons with special achievements in the preparation of tasty food and beverages."</english>
+          </bilingual>
+        </field>
+        <field id="91f8566539884e6b971d6a5cc572861a" label="URL">
+          <value type="String">http://foodscience.ca/interviews/</value>
+        </field>
+      </section>
+    </section>
+    <section id="46e8f57e67db48b29d84dda77cf0ef51" label="Publications">
+      <section id="9a34d6b273914f18b2273e8de7c48fd6" label="Journal Articles" recordId="27c9c40c1a454e178167fae02ac87b7f">
+        <field id="f3fd4878d47c4e83aef6959620ba4870" label="Article Title">
+          <value type="String">Ten new criteria for the selection of ingredients</value>
+        </field>
+        <field id="5c04ea4dae464499807d0b40b4cad049" label="Journal">
+          <value type="String">Journal of Food Preparation</value>
+        </field>
+        <field id="0a826c656ff34e579dfcbfb373771260" label="Volume">
+          <value type="String"/>
+        </field>
+        <field id="cc1d9e14945b4e8496641dbe22b3448a" label="Issue">
+          <value type="String"/>
+        </field>
+        <field id="00ba1799ece344dc8d0779a3f05a4df8" label="Page Range">
+          <value type="String"/>
+        </field>
+        <field id="3b56e4362d6a495aa5d22a1de5914741" label="Publishing Status">
+          <lov id="00000000000000000000000100001701">Revision Requested</lov>
+        </field>
+        <field id="6fafe258e19e49a7884428cb49d75424" label="Date">
+          <value format="yyyy/MM" type="YearMonth">2004/9</value>
+        </field>
+        <field id="4ad593960aba4a21bf154fa8daf37f9f" label="Publisher">
+          <value type="String"/>
+        </field>
+        <field id="4c3bc805ceaa42259f014514fc4905f8" label="Publication Location"/>
+        <field id="1167905d079c4400ae7a4a76a203a445" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="478545acac5340c0a73b7e0d2a4bee06" label="URL">
+          <value type="String"/>
+        </field>
+        <field id="2089ff1a86844b6c9a10fc63469f9a9d" label="Refereed?">
+          <lov id="00000000000000000000000000000400">Yes</lov>
+        </field>
+        <field id="51b7eaff05444990af823b9d80924f5b" label="Open Access?"/>
+        <field id="b779cc6478bd4b09b516c6d55e938583" label="Synthesis?"/>
+        <field id="289c8814fff141d89b12569d49aa2cb3" label="Contribution Role"/>
+        <field id="dc7922dfa04348a3a83c9afb5bbaa24a" label="Number of Contributors">
+          <value type="Number"/>
+        </field>
+        <field id="bc3b428d99384b04bb749311bb804e1d" label="Authors">
+          <value type="String">*Connor C., Sampleman J.</value>
+        </field>
+        <field id="707a6e0ca58341a5a82fb923b2842530" label="Editors">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="9a34d6b273914f18b2273e8de7c48fd6" label="Journal Articles" recordId="9f28b70ee6104d21923625f52eb24546">
+        <field id="f3fd4878d47c4e83aef6959620ba4870" label="Article Title">
+          <value type="String">On systemic differences in the appreciation of meals</value>
+        </field>
+        <field id="5c04ea4dae464499807d0b40b4cad049" label="Journal">
+          <value type="String">Journal of Pure and Applied Kitchen Craft</value>
+        </field>
+        <field id="0a826c656ff34e579dfcbfb373771260" label="Volume">
+          <value type="String">218</value>
+        </field>
+        <field id="cc1d9e14945b4e8496641dbe22b3448a" label="Issue">
+          <value type="String"/>
+        </field>
+        <field id="00ba1799ece344dc8d0779a3f05a4df8" label="Page Range">
+          <value type="String">1800-1805</value>
+        </field>
+        <field id="3b56e4362d6a495aa5d22a1de5914741" label="Publishing Status">
+          <lov id="00000000000000000000000100001704">Published</lov>
+        </field>
+        <field id="6fafe258e19e49a7884428cb49d75424" label="Date">
+          <value format="yyyy/MM" type="YearMonth">2003/10</value>
+        </field>
+        <field id="4ad593960aba4a21bf154fa8daf37f9f" label="Publisher">
+          <value type="String"/>
+        </field>
+        <field id="4c3bc805ceaa42259f014514fc4905f8" label="Publication Location"/>
+        <field id="1167905d079c4400ae7a4a76a203a445" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="478545acac5340c0a73b7e0d2a4bee06" label="URL">
+          <value type="String"/>
+        </field>
+        <field id="2089ff1a86844b6c9a10fc63469f9a9d" label="Refereed?">
+          <lov id="00000000000000000000000000000400">Yes</lov>
+        </field>
+        <field id="51b7eaff05444990af823b9d80924f5b" label="Open Access?"/>
+        <field id="b779cc6478bd4b09b516c6d55e938583" label="Synthesis?"/>
+        <field id="289c8814fff141d89b12569d49aa2cb3" label="Contribution Role"/>
+        <field id="dc7922dfa04348a3a83c9afb5bbaa24a" label="Number of Contributors">
+          <value type="Number"/>
+        </field>
+        <field id="bc3b428d99384b04bb749311bb804e1d" label="Authors">
+          <value type="String">*Young E., Sampleman J.</value>
+        </field>
+        <field id="707a6e0ca58341a5a82fb923b2842530" label="Editors">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="fd8f2ffe3f5c43db8b5c3f72d8ffd994" label="Book Chapters" recordId="e20142856ce245aab2611a7b7abe3a17">
+        <field id="52a699a6b0fe42a4851a7d5ae355360b" label="Chapter Title">
+          <value type="String">When is an Appetizer a Meal?</value>
+        </field>
+        <field id="b864a9512e89482487f83ed22c454e9d" label="Book Title">
+          <value type="String">Advanced Cooking and Culinary Theory</value>
+        </field>
+        <field id="7bd402d81ca24cd090b392fcf618d8e2" label="Edition">
+          <value type="String"/>
+        </field>
+        <field id="c250eee732d34fd9831f858c39785624" label="Volume">
+          <value type="String"/>
+        </field>
+        <field id="45b9d02a4bb04ec782357741b53dc135" label="Page Range">
+          <value type="String">0</value>
+        </field>
+        <field id="cf36bbd2e16c45cba9768a84ac2d6729" label="Publishing Status">
+          <lov id="00000000000000000000000100001702">Accepted</lov>
+        </field>
+        <field id="c114eabcd4674f3c9467b2bf6820cbd6" label="Date">
+          <value format="yyyy/MM" type="YearMonth">2004/8</value>
+        </field>
+        <field id="51a088349c1442238d5d0331d95f3205" label="Publisher">
+          <value type="String">(Food Sci. Res. Inst. Publ., Cambridge University Press</value>
+        </field>
+        <field id="1581a489c30d46f1b5a8c2f2863eaf45" label="Publication Location"/>
+        <field id="03138234db4149bfa300a595fc0efed3" label="Publication City">
+          <value type="String"/>
+        </field>
+        <field id="959146d3ae8d4e4f9747bc0697adb5f5" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="6f1c66fc402d4b0db3d9987e2c5d49e8" label="URL">
+          <value type="String"/>
+        </field>
+        <field id="51bd72e89f85442a9ae199e75fe5e765" label="Refereed?">
+          <lov id="00000000000000000000000000000400">Yes</lov>
+        </field>
+        <field id="5d2f8073935a4e66b39fb99366889ded" label="Contribution Role"/>
+        <field id="aea26d37a8e449aea1da8da9c2b37fb2" label="Number of Contributors">
+          <value type="Number"/>
+        </field>
+        <field id="5bc7b0b361f843d296e0e035b4b87176" label="Authors">
+          <value type="String">*Welsh J., Sampleman J.</value>
+        </field>
+        <field id="dcb27492e1554fc9838992ba7c70f416" label="Editors">
+          <value type="String">S. Ensign, D. Innes, T. Stuart, A. Zinger</value>
+        </field>
+      </section>
+      <section id="fd8f2ffe3f5c43db8b5c3f72d8ffd994" label="Book Chapters" recordId="897374bd9b574a8898b07d6d7d6676c4">
+        <field id="52a699a6b0fe42a4851a7d5ae355360b" label="Chapter Title">
+          <value type="String">Edible plants and animals</value>
+        </field>
+        <field id="b864a9512e89482487f83ed22c454e9d" label="Book Title">
+          <value type="String">Food We Find In The Wild</value>
+        </field>
+        <field id="7bd402d81ca24cd090b392fcf618d8e2" label="Edition">
+          <value type="String"/>
+        </field>
+        <field id="c250eee732d34fd9831f858c39785624" label="Volume">
+          <value type="String"/>
+        </field>
+        <field id="45b9d02a4bb04ec782357741b53dc135" label="Page Range">
+          <value type="String">0</value>
+        </field>
+        <field id="cf36bbd2e16c45cba9768a84ac2d6729" label="Publishing Status">
+          <lov id="00000000000000000000000100001704">Published</lov>
+        </field>
+        <field id="c114eabcd4674f3c9467b2bf6820cbd6" label="Date">
+          <value format="yyyy/MM" type="YearMonth">2004/1</value>
+        </field>
+        <field id="51a088349c1442238d5d0331d95f3205" label="Publisher">
+          <value type="String">Birkhauser</value>
+        </field>
+        <field id="1581a489c30d46f1b5a8c2f2863eaf45" label="Publication Location"/>
+        <field id="03138234db4149bfa300a595fc0efed3" label="Publication City">
+          <value type="String"/>
+        </field>
+        <field id="959146d3ae8d4e4f9747bc0697adb5f5" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="6f1c66fc402d4b0db3d9987e2c5d49e8" label="URL">
+          <value type="String"/>
+        </field>
+        <field id="51bd72e89f85442a9ae199e75fe5e765" label="Refereed?">
+          <lov id="00000000000000000000000000000400">Yes</lov>
+        </field>
+        <field id="5d2f8073935a4e66b39fb99366889ded" label="Contribution Role"/>
+        <field id="aea26d37a8e449aea1da8da9c2b37fb2" label="Number of Contributors">
+          <value type="Number"/>
+        </field>
+        <field id="5bc7b0b361f843d296e0e035b4b87176" label="Authors">
+          <value type="String">Sampleman J.</value>
+        </field>
+        <field id="dcb27492e1554fc9838992ba7c70f416" label="Editors">
+          <value type="String">C. Szedegzy, A. Walker-Aubergene</value>
+        </field>
+      </section>
+      <section id="0f31c9249f054c06adbbf99058fed943" label="Dissertations" recordId="0dc4eae5d09a436aa74985511d7ebfe7">
+        <field id="50a081d7f12640d2b6c18a42eb6badf6" label="Dissertation Title">
+          <value type="String">Ten New Recipes For Brazed Parsley</value>
+        </field>
+        <field id="068b0a4e981c4b87902d79a3ac930cc5" label="Organization">
+          <refTable refValueId="00000000000000000000052845182793" label="Organization">
+            <linkedWith label="Country" value="United States" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Iowa" refOrLovId="00000000000000000000000000100000"/>
+            <linkedWith label="Organization Type" value="Academic" refOrLovId="00000000000000000000000000030000"/>
+            <linkedWith label="Organization" value="University of Iowa, Iowa City" refOrLovId="ee597e9073b6479b94f903ca08f81903"/>
+          </refTable>
+        </field>
+        <field id="7f6a75ceeb6b4f3fb77fe8b73c8c81f9" label="Other Organization Type"/>
+        <field id="105ff71c3d59424c85f94da526bbd341" label="Other Organization Location"/>
+        <field id="40e0f1108da54bcb891a6597a03d6c4c" label="Other Organization">
+          <value type="String"/>
+        </field>
+        <field id="aa63e11228a04494b226a3a9e7e7778f" label="Supervisor">
+          <value type="String">John H. Sanford</value>
+        </field>
+        <field id="e859d3e3458640cfae550f4435cbb9b2" label="Completion Date">
+          <value format="yyyy-MM-dd" type="Date">1990-08-15</value>
+        </field>
+        <field id="5d4bfaebcf63428090ab2c4b9411df95" label="Degree Type">
+          <lov id="00000000000000000000000000000073">Doctorate</lov>
+        </field>
+        <field id="465ee6d18e0e41c78110257e7c6dd870" label="Number of Pages">
+          <value type="Number"/>
+        </field>
+        <field id="9cf045d544a54b31ba84fed0fd3f19f4" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="980b4c7ed330401aa6525e5870b4aae0" label="URL">
+          <value type="String"/>
+        </field>
+      </section>
+      <section id="4b9f909503cd4c8aa8d826c87d6d874d" label="Conference Publications" recordId="fef525729efb4364a83537aabca0fed7">
+        <field id="81ef87c09ded47ae8880b8d79e83406f" label="Conference Publication Type">
+          <lov id="00000000000000000000000100007000">Paper</lov>
+        </field>
+        <field id="8e6ee535c95e42ec866b777c7472bafb" label="Publication Title">
+          <value type="String">Food that grows on trees</value>
+        </field>
+        <field id="b3c8a60c053a405597b92899d95765a3" label="Conference Name">
+          <value type="String">Second International Congress on Natural Eating</value>
+        </field>
+        <field id="5813833859a64bb58ee55e4f55aff29b" label="Conference Location">
+          <refTable refValueId="f4d25e1396da4c69a8b97c85a3255c60" label="Country-Subdivision">
+            <linkedWith label="Country" value="Spain" refOrLovId="00000000000000000000000000002000"/>
+            <linkedWith label="Subdivision" value="Not Required" refOrLovId="00000000000000000000000000100000"/>
+          </refTable>
+        </field>
+        <field id="c2efd9725588489b8df73467c5597c32" label="City">
+          <value type="String">Seville</value>
+        </field>
+        <field id="99b57db653a841ccbd5f8e52079745c0" label="Conference Date">
+          <value format="yyyy-MM-dd" type="Date">1996-09-01</value>
+        </field>
+        <field id="1a1b39e861054ee59d270e66271a4ead" label="Published In">
+          <value type="String">Springer Lecture Notes Series in Sustainable Nourishment</value>
+        </field>
+        <field id="684ccb1fcdd7421f89b304ff5c40579d" label="Page Range">
+          <value type="String">Volume 415, 110-112</value>
+        </field>
+        <field id="080301b1f1c0464bba7fcfa1fa8fe182" label="Publishing Status">
+          <lov id="00000000000000000000000100001704">Published</lov>
+        </field>
+        <field id="0318d139f3e0479083188ff8319a97b2" label="Date">
+          <value format="yyyy/MM" type="YearMonth">1996/12</value>
+        </field>
+        <field id="0c357193a93f4137a87394401ac81958" label="Publisher">
+          <value type="String"/>
+        </field>
+        <field id="2fc69f4076f149bda1f0bb3e0ef9d79f" label="Publication Location"/>
+        <field id="a6e901e5f0cf48a3a7d674bf1e6fcd7f" label="Description / Contribution Value">
+          <value type="Bilingual"/>
+          <bilingual/>
+        </field>
+        <field id="61690b466fb748d99ed29b340c0ee60b" label="URL">
+          <value type="String"/>
+        </field>
+        <field id="560a2ce08e14497ba575af760eb12ba9" label="Refereed?">
+          <lov id="00000000000000000000000000000400">Yes</lov>
+        </field>
+        <field id="06295e65f66b4c6aa286d08bd9fac59b" label="Invited?">
+          <lov id="00000000000000000000000000000401">No</lov>
+        </field>
+        <field id="b101f8f057db434ba4fdee3a86c387cc" label="Contribution Role"/>
+        <field id="1a66ad40654a45c9a0119b19d7cf20a6" label="Number of Contributors">
+          <value type="Number"/>
+        </field>
+        <field id="3cc54d9bb92d421da46548979048396f" label="Authors">
+          <value type="String">Paul Carson, Jane Sampleman, Mark Striker</value>
+        </field>
+        <field id="018e656a0f824b1f91a6a2cb33ac61dd" label="Editors">
+          <value type="String"/>
+        </field>
+      </section>
+    </section>
+  </section>
+</generic-cv:generic-cv>

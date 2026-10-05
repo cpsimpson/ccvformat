@@ -1,0 +1,52 @@
+#!/bin/sh
+
+BASEDIR=`dirname "$0"`
+
+pipeline() {
+  xsltproc "$BASEDIR"/wrap.xslt - | xsltproc "$BASEDIR"/ccv2document.xslt - | xsltproc "$BASEDIR"/lists.xslt - | xsltproc "$BASEDIR"/markup-latex.xslt -
+}
+
+usage() {
+  echo "ccv2tex: convert Canadian Common CV to LaTeX"
+  echo ""
+  echo "Usage: ccv2tex [options] [infile [outfile]]"
+  echo "Options:"
+  echo "  -h, --help:   view usage info and quit"
+  echo "Arguments:"
+  echo "  infile:   file to read XML from"
+  echo "  outfile:  file to write LaTeX to"
+  echo ""
+  echo "If no filenames are specified, read standard input and write standard output."
+  echo "Outfile defaults to infile with '.tex' extension"
+}
+
+while test "$#" -gt 0; do
+  case "$1" in
+      -h|--help )
+          usage
+          exit 0
+          ;;
+      -* )
+          echo "Option $1 not recognized. Try --help for more info." > /dev/stderr
+          exit 1
+          ;;
+      * )
+          break;
+          ;;
+  esac
+done
+
+if test "$#" -eq 0; then
+  pipeline
+elif test "$#" -eq 1; then
+  infile="$1"
+  outfile=`basename "$1" .xml`.tex
+  cat "$infile" | pipeline > "$outfile"
+elif test "$#" -eq 2; then
+  infile="$1"
+  outfile="$2"
+  cat "$infile" | pipeline > "$outfile"
+else
+  echo "Too many arguments. Try --help for more info." > /dev/stderr
+  exit 1
+fi
