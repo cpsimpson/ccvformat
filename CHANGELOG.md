@@ -2,6 +2,8 @@
 
 ## 2026-10-05
 
+- Added `ccv2html --clean` to omit Personal Information, blank fields and
+  empty language variants, and fill blank Organization from Other Organization.
 - Added GPL-2.0-or-later screen and print stylesheet.
 - Embedded CSS in generated HTML so output is portable.
 - Added a proper HTML head, page title and mobile viewport.

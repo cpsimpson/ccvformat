@@ -35,7 +35,7 @@ ccvformat-0.1 directory.
 
 Alternatively, you can copy the files ccv2html, ccv2tex, wrap.xslt,
 ccv2document.xslt, lists.xslt, markup-html.xslt, and markup-latex.xslt
-and ccv-style.css to a system-wide directory such as /usr/local/bin.
+clean.xslt, and ccv-style.css to a system-wide directory such as /usr/local/bin.
 All these files must be copied to the same location.
 
 
@@ -253,3 +253,16 @@ V. Copyright and license
  USA. See also http://www.gnu.org/.
 
  See the file COPYING for details.
+
+Optional clean HTML output (added 2026-10-05)
+-------------------------------------------
+
+ ./ccv2html --clean CCV.xml cleaned.html
+
+Removes the Personal Information section while retaining the name in
+the CV title. Removes fields without text or reference-table values,
+including empty language variants. A blank Organization is filled from
+Other Organization in the same record, and the consumed Other
+Organization field is omitted to avoid duplication. Existing populated
+Organization fields are retained. Input XML is never modified.
+Without --clean, the existing conversion behavior is retained.

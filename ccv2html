@@ -1,5 +1,6 @@
 #!/bin/sh
 # Modified by Caroline Simpson, 2026-10-05: embed ccv-style.css in HTML.
+# Modified by Caroline Simpson, 2026-10-05: add optional --clean pipeline.
 # Copyright (C) 2026 Caroline Simpson (modifications).
 # SPDX-License-Identifier: GPL-2.0-or-later; see COPYING.
 
@@ -12,8 +13,10 @@ fi
 
 CSS=$(cat "$BASEDIR/ccv-style.css")
 
+CLEAN=no
+
 pipeline() {
-  xsltproc "$BASEDIR"/wrap.xslt - | xsltproc "$BASEDIR"/ccv2document.xslt - | xsltproc "$BASEDIR"/lists.xslt - | xsltproc --stringparam css "$CSS" "$BASEDIR"/markup-html.xslt -
+  xsltproc "$BASEDIR"/wrap.xslt - | xsltproc --stringparam clean "$CLEAN" "$BASEDIR"/clean.xslt - | xsltproc "$BASEDIR"/ccv2document.xslt - | xsltproc --stringparam clean "$CLEAN" "$BASEDIR"/clean.xslt - | xsltproc "$BASEDIR"/lists.xslt - | xsltproc --stringparam css "$CSS" "$BASEDIR"/markup-html.xslt -
 }
 
 usage() {
@@ -22,6 +25,8 @@ usage() {
   echo "Usage: ccv2html [options] [infile [outfile]]"
   echo "Options:"
   echo "  -h, --help:   view usage info and quit"
+  echo "  --clean:     omit Personal Information and blank fields; fill Organization"
+  echo "               from Other Organization when Organization is blank"
   echo "Arguments:"
   echo "  infile:   file to read XML from"
   echo "  outfile:  file to write HTML to"
@@ -32,6 +37,10 @@ usage() {
 
 while test "$#" -gt 0; do
   case "$1" in
+      --clean )
+          CLEAN=yes
+          shift
+          ;;
       -h|--help )
           usage
           exit 0
