@@ -1,9 +1,19 @@
 #!/bin/sh
+# Modified by Caroline Simpson, 2026-10-05: embed ccv-style.css in HTML.
+# Copyright (C) 2026 Caroline Simpson (modifications).
+# SPDX-License-Identifier: GPL-2.0-or-later; see COPYING.
 
 BASEDIR=`dirname "$0"`
 
+if test ! -r "$BASEDIR/ccv-style.css"; then
+  echo "Cannot read stylesheet: $BASEDIR/ccv-style.css" >&2
+  exit 1
+fi
+
+CSS=$(cat "$BASEDIR/ccv-style.css")
+
 pipeline() {
-  xsltproc "$BASEDIR"/wrap.xslt - | xsltproc "$BASEDIR"/ccv2document.xslt - | xsltproc "$BASEDIR"/lists.xslt - | xsltproc "$BASEDIR"/markup-html.xslt -
+  xsltproc "$BASEDIR"/wrap.xslt - | xsltproc "$BASEDIR"/ccv2document.xslt - | xsltproc "$BASEDIR"/lists.xslt - | xsltproc --stringparam css "$CSS" "$BASEDIR"/markup-html.xslt -
 }
 
 usage() {

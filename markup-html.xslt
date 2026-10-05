@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Modified by Caroline Simpson, 2026-10-05: HTML head and embedded CSS.
+     Copyright (C) 2026 Caroline Simpson (modifications).
+     SPDX-License-Identifier: GPL-2.0-or-later; see COPYING. -->
 <!-- Logical to visual formatting --> 
 
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:output indent="yes"/>
+  <xsl:output method="html" encoding="UTF-8" indent="yes"/>
+  <xsl:param name="css" select="''"/>
 
   <!-- Document root --> 
   <xsl:template match="/document">
-    <html>
-      <meta/>
+    <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title><xsl:value-of select="@title"/></title>
+        <style type="text/css"><xsl:value-of select="$css"/></style>
+      </head>
       <body>
         <xsl:if test="@title">
           <h2>

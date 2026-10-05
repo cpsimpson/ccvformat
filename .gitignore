@@ -1,0 +1,9 @@
+# Generated CVs (may contain personal data)
+*.html
+*.tex
+*.pdf
+*.aux
+*.log
+*.out
+.DS_Store
+personal

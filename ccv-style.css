@@ -1,0 +1,40 @@
+/* Copyright (C) 2026 Caroline Simpson
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ * Added 2026-10-05: screen and print styling for ccvformat HTML.
+ * See COPYING for licence terms.
+ */
+:root { color-scheme: light; --ink: #26313b; --accent: #244f63; --rule: #cbd5db; }
+* { box-sizing: border-box; }
+html { background: #edf0f2; }
+body { max-width: 950px; margin: 40px auto; padding: 55px 65px; background: white; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 16px; line-height: 1.6; box-shadow: 0 4px 28px #18273312; }
+/* Red indicates an unformatted section, rather than invalid CV data. */
+font[color="red"] { color: inherit !important; }
+h2, h3, h4 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.3; color: var(--accent); }
+h2 { font-size: 29px; font-weight: 650; margin: 0 0 30px; padding-bottom: 20px; border-bottom: 3px solid var(--accent); letter-spacing: -.5px; }
+h3 { font-size: 18px; margin: 30px 0 14px; padding-bottom: 7px; border-bottom: 1px solid var(--rule); }
+h4 { font-size: 16px; margin: 24px 0 10px; }
+/* Remove the converter"s nested indentation tables. */
+table { width: 100%; border-collapse: collapse; border: 0; font: inherit; }
+td, th { vertical-align: top; padding: 0; overflow-wrap: anywhere; }
+td[width="15"], td[width="10"] { display: none; }
+th { width: 95px; padding-right: 16px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 13px; font-weight: 600; text-align: left; }
+th ~ td { padding-bottom: 5px; }
+p { margin: 0 0 14px; }
+p:empty { height: 12px; margin: 0; }
+b { font-weight: 700; }
+/* Fallback field labels are quieter than titles and descriptions. */
+font[color="red"] > b { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .84em; color: #53616c; font-weight: 600; }
+a { color: var(--accent); text-underline-offset: 3px; }
+@media (max-width: 700px) { body { margin: 0; padding: 28px 22px; font-size: 15px; } h2 { font-size: 24px; } }
+@page { size: letter; margin: 18mm; }
+@media print {
+  html, body { background: white; }
+  body { max-width: none; margin: 0; padding: 0; box-shadow: none; font-size: 10.5pt; line-height: 1.45; }
+  h2 { font-size: 21pt; margin-bottom: 18px; padding-bottom: 12px; }
+  h3 { font-size: 12pt; margin-top: 20px; }
+  h4 { font-size: 11pt; margin-top: 15px; }
+  h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+  tr { break-inside: auto; }
+  p { orphans: 3; widows: 3; }
+  a { color: inherit; text-decoration: none; }
+}

@@ -1,9 +1,14 @@
 
      ccvformat: convert Canadian Common CV to HTML, LaTeX, or PDF
 
-            http://www.mathstat.dal.ca/~selinger/ccv2html
+            https://www.mathstat.dal.ca/~selinger/ccvformat/
 
                                 * * *
+
+Modified version maintained by Caroline Simpson.
+Based on ccvformat 0.1 by Peter Selinger (2014-2015).
+Modified 2026-10-05: modern screen and print styling for HTML output.
+SPDX-License-Identifier: GPL-2.0-or-later. See COPYING.
 
 I. Installation
 =========================
@@ -30,8 +35,8 @@ ccvformat-0.1 directory.
 
 Alternatively, you can copy the files ccv2html, ccv2tex, wrap.xslt,
 ccv2document.xslt, lists.xslt, markup-html.xslt, and markup-latex.xslt
-to a system-wide directory such as /usr/local/bin. Note that all seven
-files must be copied to the same location.
+and ccv-style.css to a system-wide directory such as /usr/local/bin.
+All these files must be copied to the same location.
 
 
 II. Usage
@@ -59,6 +64,21 @@ The output will be written to the files CCV.html, CCV.tex, or CCV.pdf,
 respectively.
 
 
+HTML styling
+------------
+
+The HTML generator embeds ccv-style.css into every output file, so the
+CV remains styled when moved or shared without a separate CSS file.
+Edit ccv-style.css and regenerate the HTML to customize its appearance.
+The stylesheet improves typography, spacing, section headings and
+mobile layout, and provides Letter-size print rules. Open the HTML in
+a browser and use Print / Save as PDF for a styled PDF.
+
+Fallback fields appear in normal text rather than red. This is a
+presentation change: it does not add section-specific formatting rules
+or remove empty fields, blank bilingual labels, or other source data.
+LaTeX output is unchanged.
+
 III. How it works
 =========================
 
@@ -73,7 +93,7 @@ can perform these steps one at a time:
  xsltproc wrap.xslt CCV.xml > CCV1.xml
  xsltproc ccv2document.xslt CCV1.xml > CCV2.xml
  xsltproc lists.xslt CCV2.xml > CCV3.xml
- xsltproc markup-html.xslt CCV3.xml > CCV.html
+ xsltproc --stringparam css "$(cat ccv-style.css)" markup-html.xslt CCV3.xml > CCV.html
  xsltproc markup-latex.xslt CCV3.xml > CCV.tex
 
 Here is a more detailed description of the five XSLT scripts used:
@@ -215,6 +235,7 @@ V. Copyright and license
  ccvformat, version 0.1
 
  Copyright (C) 2014-2015 Peter Selinger
+ Copyright (C) 2026 Caroline Simpson (modifications)
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
