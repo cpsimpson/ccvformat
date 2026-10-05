@@ -2,6 +2,8 @@
 
 ## 2026-10-05
 
+- Included previously omitted academic Work Description and affiliation
+  Activity Description beneath their entries in HTML and LaTeX.
 - Added resume-style non-academic roles: title, employer, dates/status,
   and multiline description; also renders descriptions in LaTeX.
 - Added `ccv2html --clean` to omit Personal Information, blank fields and

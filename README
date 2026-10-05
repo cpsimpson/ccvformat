@@ -274,3 +274,7 @@ Roles display position title, employer and division, dates and status,
 then the work description. HTML preserves description line breaks.
 Source order and date precision are retained; a missing end date is not
 assumed to mean Present. Applies with and without --clean.
+
+Academic employment and affiliations also include their populated Work
+Description and Activity Description fields beneath the corresponding
+entries (modified 2026-10-05). Blank descriptions are omitted.

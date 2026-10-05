@@ -648,6 +648,10 @@
           </xsl:if>
         </list>
 
+        <!-- Modified 2026-10-05: include previously omitted work description. -->
+        <xsl:if test="normalize-space(field[@label='Work Description']/value) != ''">
+          <work-description><xsl:value-of select="field[@label='Work Description']/value"/></work-description>
+        </xsl:if>
       </entry>
     </xsl:for-each>
   </xsl:template>
@@ -709,6 +713,10 @@
               </item>
             </xsl:if>
           </list>
+          <!-- Modified 2026-10-05: affiliations use Activity Description. -->
+          <xsl:if test="normalize-space(field[@label='Activity Description']/value) != ''">
+            <work-description><xsl:value-of select="field[@label='Activity Description']/value"/></work-description>
+          </xsl:if>
         </entry>
       </xsl:for-each>
     </subsection>
